@@ -1,26 +1,65 @@
-<<<<<<< HEAD
 
 .faq {
 
 }
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+
+<!--Vladimir Kulik Start-->
+=======
+
+.content {
+    margin: 40px auto;
+    width: 1080;
+    display: flex;
+}
+
+.content__1 {
+    width: 400px;
+}
+
+.content__2 {
+    width: 400px;
+}
+
+.content__3 {
+    width: 400px;
+}
+
+.content__img1{
+    width: 200px;
+}
+
+.content__img2{
+    width: 200px;
+}
+
+.content__img3{
+    width: 200px;
+}
+
+>>>>>>> 77ae7b8223518541ac438cafba51aedb3bc581c9
+
 .about {
     
 }
 .about__title {
-
+ 
 }
 .about__title-us {
 
 }
 .about__description {
 
-.about__contact {
-   
-}
+<<<<<<< HEAD
 
+=======
+.about__contact {
+    
 }
+>>>>>>> 540dc93eec4cf2aa84f9c229572cb6e8db9f804d
+
 .about__contact1-number {
 
 }
@@ -49,14 +88,19 @@ width: 150px;
 .about__contact3-tekst3 {
 
 }
+<<<<<<< HEAD
+
+=======
+<!--Vladimir Kulik Stop-->
+
 =======
 >>>>>>> b2e04720deefa2344263853c03de809a4d7d8ba2
+>>>>>>> 540dc93eec4cf2aa84f9c229572cb6e8db9f804d
 /* Початок коду Andrii Kurash (секція 9) */
 .testimonials{
     background-color:azure;
 }
 /* Кінець коду Andrii Kurash (секція 9) */
-<<<<<<< HEAD
-=======
->>>>>>> 21c8c6e74bf84eaf73acf189f83a6a9754102d98
->>>>>>> b2e04720deefa2344263853c03de809a4d7d8ba2
+
+
+
