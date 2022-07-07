@@ -2,6 +2,12 @@
 .faq {
 
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+<!--Vladimir Kulik Start-->
+=======
 
 .content {
     margin: 40px auto;
@@ -33,21 +39,27 @@
     width: 200px;
 }
 
+>>>>>>> 77ae7b8223518541ac438cafba51aedb3bc581c9
 
 .about {
     
 }
 .about__title {
-
+ 
 }
 .about__title-us {
 
 }
 .about__description {
 
+<<<<<<< HEAD
 
-
+=======
+.about__contact {
+    
 }
+>>>>>>> 540dc93eec4cf2aa84f9c229572cb6e8db9f804d
+
 .about__contact1-number {
 
 }
@@ -76,7 +88,14 @@ width: 150px;
 .about__contact3-tekst3 {
 
 }
+<<<<<<< HEAD
 
+=======
+<!--Vladimir Kulik Stop-->
+
+=======
+>>>>>>> b2e04720deefa2344263853c03de809a4d7d8ba2
+>>>>>>> 540dc93eec4cf2aa84f9c229572cb6e8db9f804d
 /* Початок коду Andrii Kurash (секція 9) */
 .testimonials{
     background-color:azure;
