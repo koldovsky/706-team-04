@@ -1,10 +1,30 @@
 <<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
 .faq {
 
 }
-=======
-<<<<<<< HEAD
+
+.content {
+    width: 1080;
+    display: flex;
+}
+
+.content__img1{
+    width: 200px;
+}
+
+.content__img2{
+    width: 200px;
+}
+
+.content__img3{
+    width: 200px;
+}
+
+
 .about {
     
 }
