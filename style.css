@@ -21,13 +21,8 @@ body {
     background-color: #232428;
     margin: auto;
     text-align: center;
-=======
-<<<<<<< HEAD
-=======
-.content {
     margin: 40px auto;
     width: 1080;
->>>>>>> 46ffedf1251e0f8ffc0a8938940addfb59f80ad2
     display: flex;
     color: whitesmoke;
     font-family: Roboto,sans-serif;
@@ -58,9 +53,7 @@ body {
 .faq__content-item3{
     margin: 40px 20px;
 }
->>>>>>> 74454bfce74657a7e3565a708775d9c8be210d95
 
-<<<<<<< HEAD
 .faq__content-item4{
     margin: 40px 20px;
 }
