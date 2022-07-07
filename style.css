@@ -10,48 +10,46 @@
 =======
 <<<<<<< HEAD
 
-<!--Vladimir Kulik Start-->
+
 =======
 
-.content {
-    width: 1080;
-    display: flex;
-}
-
-.content__img1{
-    width: 200px;
-}
-
-.content__img2{
-    width: 200px;
-}
-
-.content__img3{
-    width: 200px;
-}
 
 >>>>>>> 77ae7b8223518541ac438cafba51aedb3bc581c9
-
+/*Vladimir Kulik Start*/
 .about {
     
 }
 .about__title {
- 
+
 }
 .about__title-us {
+    font-size: 10px;
 
 }
-.about__description {
-
-.about__contact {
+.about__title-us-defis{
+    color: red;
+}
+.about__title-us-tekst {
     
 }
+.about__description-oll {
 
+}
+.about__description1 {
+
+}
+.about__description2 {
+
+}
+.about__contact{
+    display: flex;
+}
 .about__contact1-number {
 
 }
 .about__contact1-photo1 {
 width: 150px;
+margin-right: 10cm;
 }
 .about__contact1-tekst1 {
 
@@ -75,7 +73,7 @@ width: 150px;
 .about__contact3-tekst3 {
 
 }
-<!--Vladimir Kulik Stop-->
+/*Vladimir Kulik Stop*/
 
 =======
 >>>>>>> b2e04720deefa2344263853c03de809a4d7d8ba2
