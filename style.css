@@ -1,12 +1,36 @@
 <<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
 .faq {
 
 }
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 <!--Vladimir Kulik Start-->
+=======
+
+.content {
+    width: 1080;
+    display: flex;
+}
+
+.content__img1{
+    width: 200px;
+}
+
+.content__img2{
+    width: 200px;
+}
+
+.content__img3{
+    width: 200px;
+}
+
+>>>>>>> 77ae7b8223518541ac438cafba51aedb3bc581c9
 
 .about {
     
