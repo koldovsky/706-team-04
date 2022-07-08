@@ -149,7 +149,31 @@ margin-right: 200px;
 margin-right: 200px;
 }
 /*Vladimir Kulik Stop*/
+========================
+/* Кравчишин Роман */
 
+.route {
+
+}
+
+.route__content {
+    background-color: black;
+    color: white;
+}
+
+.subtitle__devider {
+    color: rgb(238,46,20);
+}
+
+.photo__offers {
+    color: 1#14a9ee;
+}
+
+.photo {
+
+}
+
+/* Кравчишин Роман кінець */
 =======
 
 /* Початок коду Andrii Kurash (секція 9) */
