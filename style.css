@@ -3,7 +3,77 @@ body {
     margin: 0;
 }
 
+<!-- Початок коду Кріль Сергій -->
+.header {
 
+}
+
+.header-content {
+    background-image: url(img/header-background.png);
+    background-repeat: no-repeat;
+}
+
+.video-preview__subtitle {
+    color: #fff;
+    list-style-type: none;
+}
+
+.subtitle_link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__inscription {
+    color: #fff;
+}
+
+.inscription__divider {
+    color: rgb(238,46,20);
+    font-weight: bold;
+}
+
+.header__inner-videoicon {
+    
+}
+
+.header__inner-videoicon img{
+    width: 24px;
+    height: 100%;
+    
+}
+
+.header__inner-videoicon a{
+    text-decoration: none;
+    color: #fff
+}
+
+.header__navbar-logo {
+
+}
+
+.header__navbar-logo img{
+    width: 188px;
+    height: auto;
+}
+
+.header__inner-title {
+    font-size: 120px;
+    color: #fff;
+}
+
+.header__menu-navbar {
+
+}
+
+.menu__link {
+    text-decoration: none;
+}
+
+.header__menu-navbar a{
+    color: #fff;
+}
+
+<!-- Кінець коду Кріль Сергій -->
 
 <!--FAQ | Kravchenko Yurii | Start -->
 .faq {
