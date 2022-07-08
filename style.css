@@ -1,10 +1,91 @@
-<<<<<<< HEAD
-
-.faq {
-
+body {
+    margin: 0;
 }
+
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+
+
+=======
+
+<<<<<<< HEAD
+
+
+<!--FAQ | Kravchenko Yurii | Start -->
+.faq {
+    
+}
+
+.faq__content {
+    background-color: #232428;
+    margin: auto;
+    text-align: center;
+    margin: 40px auto;
+    width: 1080;
+    display: flex;
+    color: whitesmoke;
+    font-family: Roboto,sans-serif;
+}
+
+.faq__content-img1 {
+    width:1000px;
+    position: relative;
+}
+
+.faq__content-information{
+    margin: 50px;
+    text-align: left;
+}
+
+.faq__content-items {
+    margin: 40px 20px;
+}
+
+.faq__content-item1{
+    margin: 40px 20px;
+}
+
+.faq__content-item2{
+    margin: 40px 20px;
+}
+
+.faq__content-item3{
+    margin: 40px 20px;
+}
+
+.faq__content-item4{
+    margin: 40px 20px;
+}
+
+.faq__content-information-title {
+    max-width: 500px;
+    position: relative;
+    min-width: 320px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    line-height: 1.7;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    z-index: 1;
+}
+
+.faq__content-information-title-text {
+    color:#505155;
+}
+
+.faq__content-item-text {
+    
+}
+<!--FAQ | Kravchenko Yurii | End -->
+
+
+=======
+>>>>>>> 77ae7b8223518541ac438cafba51aedb3bc581c9
+/*Vladimir Kulik Start*/
+>>>>>>> 46ffedf1251e0f8ffc0a8938940addfb59f80ad2
 .about {
     
 }
@@ -12,20 +93,45 @@
 
 }
 .about__title-us {
+    font-size: 10px;
 
 }
+<<<<<<< HEAD
+.about__title-us-defis{
+    color: red;
+}
+.about__title-us-tekst {
+    
+}
+.about__description-oll {
+=======
 .about__description {
 
-.about__contact {
-   
-}
+<<<<<<< HEAD
 
+=======
+.about__contact {
+    
+}
+>>>>>>> 540dc93eec4cf2aa84f9c229572cb6e8db9f804d
+>>>>>>> 74454bfce74657a7e3565a708775d9c8be210d95
+
+}
+.about__description1 {
+
+}
+.about__description2 {
+
+}
+.about__contact{
+    display: flex;
 }
 .about__contact1-number {
 
 }
 .about__contact1-photo1 {
 width: 150px;
+margin-right: 10cm;
 }
 .about__contact1-tekst1 {
 
@@ -49,14 +155,23 @@ width: 150px;
 .about__contact3-tekst3 {
 
 }
+<<<<<<< HEAD
+/*Vladimir Kulik Stop*/
+=======
+<<<<<<< HEAD
+
+=======
+<!--Vladimir Kulik Stop-->
+>>>>>>> 74454bfce74657a7e3565a708775d9c8be210d95
+
 =======
 >>>>>>> b2e04720deefa2344263853c03de809a4d7d8ba2
+>>>>>>> 540dc93eec4cf2aa84f9c229572cb6e8db9f804d
 /* Початок коду Andrii Kurash (секція 9) */
 .testimonials{
     background-color:azure;
 }
 /* Кінець коду Andrii Kurash (секція 9) */
-<<<<<<< HEAD
-=======
->>>>>>> 21c8c6e74bf84eaf73acf189f83a6a9754102d98
->>>>>>> b2e04720deefa2344263853c03de809a4d7d8ba2
+
+
+
