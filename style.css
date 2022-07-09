@@ -240,6 +240,7 @@ margin-right: 200px;
 
 .photo__offers {
     background: #14a9ee;
+    fill: #14a9ee;
     border-radius: 30%;
     max-width: 100%;
 }
