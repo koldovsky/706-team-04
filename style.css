@@ -9,9 +9,8 @@ body {
 }
 
 .header-content {
-    background-image: url(img/header-background5120.png);
-    background-repeat: no-repeat;
-    width: 100%;
+    background: url(img/header-background5120.png) no-repeat center fixed;
+    background-size: cover;
 }
 
 .video-preview__subtitle {
