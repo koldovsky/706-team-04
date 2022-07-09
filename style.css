@@ -229,7 +229,9 @@ margin-right: 200px;
 }
 
 .route__content {
-    background-color: black;
+    background-image: url(img/background__route.png);
+    background-repeat: no-repeat;
+    width: 100%;
     color: white;
 }
 
