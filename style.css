@@ -9,8 +9,8 @@ body {
 }
 
 .header-content {
-    background-image: url(img/header-background.png);
-    background-repeat: no-repeat;
+    background: url(img/header-background5120.png) no-repeat center fixed;
+    background-size: cover;
 }
 
 .video-preview__subtitle {
@@ -223,7 +223,7 @@ margin-right: 200px;
 margin-right: 200px;
 }
 /*Vladimir Kulik Stop*/
-========================
+
 /* Кравчишин Роман */
 
 .route {
@@ -231,7 +231,9 @@ margin-right: 200px;
 }
 
 .route__content {
-    background-color: black;
+    background-image: url(img/background__route.png);
+    background-repeat: no-repeat;
+    width: 100%;
     color: white;
 }
 
@@ -240,7 +242,10 @@ margin-right: 200px;
 }
 
 .photo__offers {
-    color: 1#14a9ee;
+    background: #14a9ee;
+    fill: #14a9ee;
+    border-radius: 30%;
+    max-width: 100%;
 }
 
 .photo {
@@ -248,7 +253,7 @@ margin-right: 200px;
 }
 
 /* Кравчишин Роман кінець */
-=======
+
 
 /* Початок коду Andrii Kurash (секція 9) */
 .testimonials{
