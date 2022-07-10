@@ -154,8 +154,9 @@ body {
     
 }
 .about_block-men-and-sea {
-    background: url(img/men_and_sea.jpg) no-repeat center fixed;
+    background: url(img/men_and_sea.jpg) no-repeat center ;
     background-size: cover;
+    display: inline-block;
 }
 .about_text-block {
     display: flex;
