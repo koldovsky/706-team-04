@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 body {
     margin: 0;
 }
@@ -157,21 +157,37 @@ body {
     background: url(img/men_and_sea.jpg) no-repeat center fixed;
     background-size: cover;
 }
+.about_text-block {
+    display: flex;
+}
 .about__title {
 
 }
 .about__title-us {
-    font-size: 10px;
+    font-size: 13px;
+    margin-left: 150px;
+    margin-right: 350px;
+    margin-top: 50px;
+    margin-bottom: -40px;
 
 }
 .about__title-us-defis{
     color: red;
 }
 .about__title-us-tekst {
-    
+    width: 1080;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    margin-left: 150px;
+    margin-right: 350px;
+    font-stretch: normal;
+    color: #505155;
+}
+.about__10-days {
+    color:#14a9ee;
 }
 .about__description-oll {
-    padding-bottom: 50px;
+
 }
 .about__description1 {
 
@@ -181,8 +197,11 @@ body {
 }
 .about__contact{
     display: flex;
+    
 }
 .about__contact1-number {
+
+
 
 }
 .about__contact1-photo1 {
