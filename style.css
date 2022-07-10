@@ -151,10 +151,11 @@ body {
 /*Vladimir Kulik Start*/
 
 .about {
-
-}
-.about__navbar-logo {
     
+}
+.about_block-men-and-sea {
+    background: url(img/men_and_sea.jpg) no-repeat center fixed;
+    background-size: cover;
 }
 .about__title {
 
