@@ -1,0 +1,153 @@
+
+.aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 48px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.aboutWrapper .descriptionWrapper {
+    display: flex;
+    margin-top: 120px;
+}
+
+.aboutWrapper .descriptionWrapper .illustration {
+    flex-basis: calc(33.33333% - 30px);
+    width: calc(33.33333% - 30px);
+    padding: 0 15px;
+}
+
+.aboutWrapper .descriptionWrapper .illustration__picture, .aboutWrapper .descriptionWrapper .illustration__picture-img {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutWrapper .descriptionWrapper .illustration__picture-img {
+    object-fit: contain;
+}
+
+.aboutWrapper .descriptionWrapper .description {
+    display: flex;
+    flex-basis: calc(66.66666%);
+    width: calc(66.66666%);
+}
+
+.aboutWrapper .descriptionWrapper .description__section {
+    width: calc(50% - 96px);
+    padding: 0 48px;
+}
+
+.aboutWrapper .descriptionWrapper .description__title {
+    font-size: 13px;
+    line-height: 1.6;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .03em;
+    color: #6f7380;
+    margin: 0;
+}
+
+.aboutWrapper .descriptionWrapper .description__title-dash {
+    color: rgb(238, 46, 20);
+}
+
+.aboutWrapper .descriptionWrapper .description__subTitle {
+    font-size: 45px;
+    color: #505155;
+    line-height: 1.2;
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .03em;
+    margin: 20px 0 0;
+}
+
+.aboutWrapper .descriptionWrapper .description__text {
+    font-size: 19px;
+    line-height: 1.7;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #505155;
+    margin: 0;
+}
+
+.aboutWrapper .descriptionWrapper .description__text:not(:first-child) {
+    margin-top: 20px;
+}
+
+.aboutWrapper .attractions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 120px;
+}
+
+.aboutWrapper .attractions__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutWrapper .attractions__item-text {
+    font-size: 60px;
+    line-height: 1;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #232428;
+    text-transform: none;
+}
+
+.aboutWrapper .attractions__item-link {
+    font-size: 20px;
+    color: #505155;
+    margin-top: 20px;
+}
+
+.aboutWrapper .video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.aboutWrapper .video__previewImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 890px;
+}
+
+.aboutWrapper .video__info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.aboutWrapper .play__icon {
+    padding: 0;
+    width: 170px;
+    height: 100px;
+}
+
+.aboutWrapper .video__text {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+
+
+
