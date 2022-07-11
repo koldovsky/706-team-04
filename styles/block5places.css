@@ -1,10 +1,58 @@
 /* Kupinskyi */
+.places {
+    margin: 5%;
+}
+
+.places__text {
+    margin-right: 35%;
+}
+
+.places__text-title {
+    font-size: 13px;
+    line-height: 1.6;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .03em;
+    color: #6f7380;
+    margin: 0;
+}
+
+.places__text-subtitle {
+    font-size: 45px;
+    color: #505155;
+    line-height: 1.2;
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .03em;
+    margin: 20px 0 0;
+}
+
+.places__text-description {
+    font-size: 19px;
+    line-height: 1.7;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #505155;
+    margin: 0;
+    padding: 3% 0%;
+}
+
+.title__divider {
+    color: red;
+}
+
 .city__image {
     float: left;
     width: 40%;
+    margin: auto;
 }
 
 .city__text {
     float: right;
     width: 40%;
+    margin: auto;
 }
