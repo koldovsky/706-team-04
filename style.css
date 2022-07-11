@@ -2,8 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300;400&display=swap');
 @import url(styles/block5places.css);
 @import url(styles/6block-stunning-spots.css);
-body {
+* {
     margin: 0;
+}
+
+
+:root {
+    --main__text-color: rgb(80, 81, 85); 
+    --main__border-color: #ccc; 
+    --description-text-light: rgba(255, 255, 255, 0.6); 
+    --description-text-dark: #505155; 
+    --button-color: #14a9ee; 
+    --faq-dash:#a9a9a9;
+    --dash-color: rgb(238,46,20);
+    --text-accordion-color: rgba(169, 169, 169); 
+    --text-description-color: rgb(112, 112, 112); 
+    --subtitle-light-color: rgba(255, 255, 255, 0.6); 
+    --subtitle-dark-color: rgb(111, 115, 128); 
+    --background-dark-color: rgb(35, 36, 40); 
+    
+
 }
 
 <!-- Початок коду Кріль Сергій -->
