@@ -44,15 +44,22 @@
 .title__divider {
     color: red;
 }
-
+/*
 .city__image {
+    background-position: center;
+    overflow: hidden;
     float: left;
     width: 40%;
-    margin: auto;
+    margin: 5%;
+}
+
+.city__image img {
+
 }
 
 .city__text {
     float: right;
-    width: 40%;
-    margin: auto;
+    width: 30%;
+    margin: 10% 0%;
 }
+*/
