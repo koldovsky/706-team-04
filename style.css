@@ -26,9 +26,7 @@
 }
 
 /*Початок коду Кріль Сергій*/
-.header {
 
-}
 
 .header-content {
     background: url(img/header-background5120.png) no-repeat center fixed;
@@ -54,9 +52,7 @@
     font-weight: bold;
 }
 
-.header__inner-videoicon {
-    
-}
+
 
 .header__inner-videoicon img{
     width: 24px;
@@ -69,9 +65,7 @@
     color: #fff
 }
 
-.header__navbar-logo {
 
-}
 
 .header__navbar-logo img{
     width: 188px;
@@ -83,9 +77,6 @@
     color: #fff;
 }
 
-.header__menu-navbar {
-
-}
 
 .menu__link {
     text-decoration: none;
@@ -176,9 +167,7 @@
 
 /*Vladimir Kulik Start*/
 
-.about {
-   
-}
+
 .about_block-men-and-sea {
     background: url(img/men_and_sea.jpg) no-repeat bottom ;
     background-size: cover;
@@ -188,9 +177,7 @@
 .about_text-block {
     display: flex;
 }
-.about__title {
 
-}
 .about__title-us {
     font-size: 13px;
     margin-left: 230px;
@@ -291,12 +278,9 @@ margin-left: 40px;
 
 /* Кравчишин Роман */
 
-.route {
-
-}
 
 .route__content {
-    background-image: url(img/background__route.png); no-repeat center fixed;
+    background-image: url(img/background__route.png) no-repeat center fixed;
     background-size: cover;
     color: white;
 }
@@ -338,9 +322,6 @@ margin-left: 40px;
     max-width: 100%;
 }
 
-.photo {
-
-}
 
 /* Кравчишин Роман кінець */
 
