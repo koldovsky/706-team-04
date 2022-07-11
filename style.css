@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300;400&display=swap');
 body {
     margin: 0;
 }
@@ -9,8 +10,8 @@ body {
 }
 
 .header-content {
-    background-image: url(img/header-background.png);
-    background-repeat: no-repeat;
+    background: url(img/header-background5120.png) no-repeat center fixed;
+    background-size: cover;
 }
 
 .video-preview__subtitle {
@@ -18,7 +19,7 @@ body {
     list-style-type: none;
 }
 
-.subtitle_link {
+.subtitle__detailed a{
     text-decoration: none;
     color: #fff;
 }
@@ -72,6 +73,7 @@ body {
 .header__menu-navbar a{
     color: #fff;
 }
+
 
 <!-- Кінець коду Кріль Сергій -->
 
@@ -150,76 +152,118 @@ body {
 /*Vladimir Kulik Start*/
 
 .about {
+   
+}
+.about_block-men-and-sea {
+    background: url(img/men_and_sea.jpg) no-repeat bottom ;
+    background-size: cover;
+    height:1100px;
     
+}
+.about_text-block {
+    display: flex;
 }
 .about__title {
 
 }
 .about__title-us {
-    font-size: 10px;
+    font-size: 13px;
+    margin-left: 230px;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: -40px;
 
 }
 .about__title-us-defis{
     color: red;
 }
 .about__title-us-tekst {
-    
+    width: 1080;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    margin-left: 230px;
+    margin-right: 40px;
+    font-stretch: normal;
+    color: #505155;
+}
+.about__10-days {
+    color:#14a9ee;
 }
 .about__description-oll {
-    padding-bottom: 50px;
+    font-size: 19px;
+    margin-top: 60px;
+    line-height: 32px;
+    margin-right: 230px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(80, 81, 85);
 }
 .about__description1 {
-
+margin-bottom: 35px;
 }
 .about__description2 {
-
+margin-top: 35px;
 }
 .about__contact{
     display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
 }
 .about__contact1-number {
-
+background-color: rgb(255, 255, 255);
+margin-left: 180px;
+margin-right: 30px;
 }
 .about__contact1-photo1 {
 width: 150px;
 height: 100px;
-margin-left: 200px;
+margin-left: 40px;
 padding: 0 10px;
 }
 .bout__contact1-zagolovok1 {
-    margin-left: 200px;
+    margin-left: 40px;
 }
 .about__contact1-tekst1 {
-    margin-left: 200px;
+    margin-left: 40px;
+    margin-right: 50px;
 }
 
 .about__contact2-number {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
 }
 .about__contact2-photo2 {
     width: 190px;
     height: 100px;
+    margin-left: 40px;
+}
+.bout__contact2-zagolovok2 {
+    margin-left: 40px;
 }
 .about__contact2-tekst2 {
-
+    margin-left: 40px;
+    margin-right: 50px;
 }
 .about__contact3-number {
-
+    background-color: rgb(255, 255, 255);;
+    margin-right: 180px;
+    margin-left: 30px;
+   
 }
 .about__contact3-photo3 {
 width: 150px;
 margin-right: 200px;
+margin-left: 40px;
 }
 .bout__contact3-zagolovok3 {
-    margin-right: 200px;
+    margin-left: 40px;
 }
 .about__contact3-tekst3 {
-margin-right: 200px;
+margin-right: 50px;
+margin-left: 40px;
 }
 /*Vladimir Kulik Stop*/
-========================
+
 /* Кравчишин Роман */
 
 .route {
@@ -227,16 +271,46 @@ margin-right: 200px;
 }
 
 .route__content {
-    background-color: black;
+    background-image: url(img/background__route.png); no-repeat center fixed;
+    background-size: cover;
     color: white;
+}
+
+.icon__map {
+    font-size: 17px;
+    font-family: "object-fit:cover";
+    font-weight: 400;
+    height: 499px;
+    line-height: 28.9px;
+    object-position: 50% 50%;
+    width: 467.5px;
+    text-align: left;
 }
 
 .subtitle__devider {
     color: rgb(238,46,20);
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+}
+
+.route__map-subtitle {
+    color:rgba(255,255,255,0.6);
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+}
+
+.first__name {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-family: "Playfair Display", serif;
+    text-align: left;
 }
 
 .photo__offers {
-    color: 1#14a9ee;
+    background: #14a9ee;
+    fill: #14a9ee;
+    border-radius: 30%;
+    max-width: 100%;
 }
 
 .photo {
@@ -244,7 +318,7 @@ margin-right: 200px;
 }
 
 /* Кравчишин Роман кінець */
-=======
+
 
 /* Початок коду Andrii Kurash (секція 9) */
 .testimonials{

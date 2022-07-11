@@ -1,0 +1,19 @@
+.stunning-spots__line {
+    color: rgb(238,46,20);
+}
+.stunning-spots__title {
+    color: rgba(255,255,255,0.6);
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    margin-left: 150px;
+    margin-right: 350px;
+    margin-top: 50px;
+    margin-bottom: -40px;
+}
+.stunning-spots__subtitle-grey {
+    color:#505155;
+}
+.stunning-spots__describtion {
+    color: rgba(255,255,255,0.6);
+    font-size: 17px;
+}
