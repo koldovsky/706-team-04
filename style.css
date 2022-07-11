@@ -100,7 +100,6 @@
     display: flex;
     text-align: center;
     margin: 40px 140px;
-    width: 1080;
     display: flex;
     color: whitesmoke;
 }
@@ -155,7 +154,7 @@
 
 .faq__content-information-subtitle {
     font-family: Roboto,sans-serif;
-    color: --text-description-color;
+    color: (--text-description-color);
     
 }
 
@@ -190,7 +189,6 @@
     color: red;
 }
 .about__title-us-tekst {
-    width: 1080;
     font-family: 'Playfair Display', serif;
     font-size: 45px;
     margin-left: 230px;
