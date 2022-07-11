@@ -154,7 +154,6 @@
 
 .faq__content-information-subtitle {
     font-family: Roboto,sans-serif;
-    color: (--text-description-color);
     
 }
 
@@ -278,7 +277,7 @@ margin-left: 40px;
 
 
 .route__content {
-    background-image: url(img/background__route.png) no-repeat center fixed;
+    background-image: url(img/background__route.png);
     background-size: cover;
     color: white;
 }
