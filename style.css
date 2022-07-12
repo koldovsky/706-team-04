@@ -3,6 +3,7 @@
 @import url(fonts/google-fonts-5c2dfa623dbc4a0023e12261.css);
 @import url(styles/block5places.css);
 @import url(styles/6block-stunning-spots.css);
+@import url(styles/header.css);
 * {
     margin: 0;
 }
@@ -25,69 +26,6 @@
 
 }
 
-/*Початок коду Кріль Сергій*/
-
-
-.header-content {
-    background: url(img/header-background5120.png) no-repeat center fixed;
-    background-size: cover;
-}
-
-.video-preview__subtitle {
-    color: #fff;
-    list-style-type: none;
-}
-
-.subtitle__detailed a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.header__inscription {
-    color: #fff;
-}
-
-.inscription__divider {
-    color: rgb(238,46,20);
-    font-weight: bold;
-}
-
-
-
-.header__inner-videoicon img{
-    width: 24px;
-    height: 100%;
-    
-}
-
-.header__inner-videoicon a{
-    text-decoration: none;
-    color: #fff
-}
-
-
-
-.header__navbar-logo img{
-    width: 188px;
-    height: auto;
-}
-
-.header__inner-title {
-    font-size: 120px;
-    color: #fff;
-}
-
-
-.menu__link {
-    text-decoration: none;
-}
-
-.header__menu-navbar a{
-    color: #fff;
-}
-
-
-/*Кінець коду Кріль Сергій*/
 
 /*FAQ | Kravchenko Yurii | Start*/
 
