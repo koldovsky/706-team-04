@@ -1,6 +1,8 @@
 .header-content {
     background: url(../img/header-background5120.png);
     background-size: cover;
+    background-position: center;
+    display: flex;
 }
 
 .video-preview__subtitle {
