@@ -1,5 +1,6 @@
 .stunning-spots__line {
     color: rgb(238,46,20);
+    
 }
 .stunning-spots__title {
     color: rgba(255,255,255,0.6);
@@ -9,11 +10,30 @@
     margin-right: 350px;
     margin-top: 50px;
     margin-bottom: -40px;
+    display: block;
 }
 .stunning-spots__subtitle-grey {
     color:#505155;
+  
 }
 .stunning-spots__describtion {
     color: rgba(255,255,255,0.6);
     font-size: 17px;
+}
+.main__carousel-images, .main-quote {
+    background-color: #232428;
+}
+.quote-text {
+    color: white;
+    text-align: center;
+    
+}
+.quote-author {
+    color: rgba(255,255,255,0.6);
+    text-align: center;
+}
+.svg-quotes {
+    margin: auto;
+    width: 50px;
+    display: block;
 }

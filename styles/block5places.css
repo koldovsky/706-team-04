@@ -1,0 +1,128 @@
+/* Kupinskyi */
+.places {
+    margin: 5%;
+}
+
+.places__text {
+    margin-right: 35%;
+}
+
+.places__text-title {
+    font-size: 13px;
+    line-height: 1.6;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .03em;
+    color: #6f7380;
+    margin: 0;
+}
+
+.places__text-subtitle {
+    font-size: 45px;
+    color: #505155;
+    line-height: 1.2;
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .03em;
+    margin: 20px 0 0;
+}
+
+.places__text-description {
+    font-size: 19px;
+    line-height: 1.7;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #505155;
+    margin: 0;
+    padding: 3% 0%;
+}
+
+.title__divider {
+    color: rgb(238,46,20);
+}
+
+.city__image img {
+    width: 600px;
+}
+/*
+.city__image {
+    width: 50%;
+}
+
+.city__image img {
+    background-position: center;
+    overflow: hidden;
+    float: left;
+    height: 60%;
+    width: 80%;
+    margin: 5%;
+}
+
+.city__text {
+    float: right;
+    width: 30%;
+    margin: 10% 0%;
+}
+*/
+
+.city__title {
+    font-size: 12px;
+    line-height: 1.7;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #505155;
+    margin: 0;
+}
+
+.city__subtitle {
+    font-size: 30px;
+    color: #505155;
+    line-height: 1.2;
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .03em;
+    margin: 20px 0 0;
+}
+
+.city__apartments {
+    font-weight: bold;
+}
+
+.apartments__night {
+    font-size: 20px;
+    color: rgb(238,46,20);
+/*    float: left; */
+}
+
+.apartments__type {
+    font-size: 16px;
+    color: #505155;
+/*    float: right; */
+}
+
+.city__description {
+    font-size: 20px;
+    color: #6f7380;
+}
+
+.city__features {
+    font-size: 14px;
+    color: #6f7380;
+}
+
+.city__button {
+    background-color: rgb(6, 103, 250);
+    color: white;
+    text-decoration: none;
+}
+
+.city__button:hover {
+    background-color:#262629;
+}
