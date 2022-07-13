@@ -5,7 +5,7 @@
 @import url(styles/stunning-spots.css);
 @import url(styles/testimonials.css);
 @import url(styles/header.css);
-
+@import url(styles/tour-itinerary.css);
 * {
     margin: 0;
 }
@@ -212,53 +212,4 @@ margin-right: 50px;
 margin-left: 40px;
 }
 /*Vladimir Kulik Stop*/
-
-/* Кравчишин Роман */
-
-
-.route__content {
-    background-image: url(img/background__route.png);
-    background-size: cover;
-    color: white;
-}
-
-.icon__map {
-    font-size: 17px;
-    font-family: "object-fit:cover";
-    font-weight: 400;
-    height: 499px;
-    line-height: 28.9px;
-    object-position: 50% 50%;
-    width: 467.5px;
-    text-align: left;
-}
-
-.subtitle__devider {
-    color: rgb(238,46,20);
-    font-family: Roboto, sans-serif;
-    font-size: 13px;
-}
-
-.route__map-subtitle {
-    color:rgba(255,255,255,0.6);
-    font-family: Roboto, sans-serif;
-    font-size: 13px;
-}
-
-.first__name {
-    color: rgb(255, 255, 255);
-    font-size: 45px;
-    font-family: "Playfair Display", serif;
-    text-align: left;
-}
-
-.photo__offers {
-    background: #14a9ee;
-    fill: #14a9ee;
-    border-radius: 30%;
-    max-width: 100%;
-}
-
-
-/* Кравчишин Роман кінець */
 
