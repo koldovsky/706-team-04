@@ -3,7 +3,9 @@
 @import url(fonts/google-fonts-5c2dfa623dbc4a0023e12261.css);
 @import url(styles/block5places.css);
 @import url(styles/6block-stunning-spots.css);
+@import url(styles/testimonials.css);
 @import url(styles/header.css);
+
 * {
     margin: 0;
 }
@@ -260,9 +262,3 @@ margin-left: 40px;
 
 /* Кравчишин Роман кінець */
 
-
-/* Початок коду Andrii Kurash (секція 9) */
-.testimonials{
-    background-color:azure;
-}
-/* Кінець коду Andrii Kurash (секція 9) */

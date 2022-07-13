@@ -1,0 +1,82 @@
+.testimonials {
+    background-image: url('..//img/testimonials__background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 125px;
+    padding-bottom: 120px;
+}
+.testimonials__container{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1220px;
+}
+.testimonials__top {
+    max-width: 770px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.testimonials__heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #505155;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.heading__inner {
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    color: rgb(238,46,20);
+}
+.testimonials__subtitle {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #505155;
+    margin-bottom: 55px;
+}
+.testimonials__info {
+    font-family: 'Roboto' serif;
+    font-size: 19px;
+    color: #505155;
+    margin-bottom: 60px;
+}
+.testimonials__bottom{
+    text-align: center;
+}
+.testimonials__bottom-inner:nth-child(1),
+.testimonials__bottom-inner:nth-child(3){
+    display: none;
+}
+.bottom-user-photo {
+    margin-bottom: 10px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.bottom-user-name {
+    font-family: 'Roboto', serif;
+    font-size: 29px;
+    font-weight: 500;
+    color: #232428;
+    margin: 25px 0;
+}
+.bottom-user-text {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1010px;
+    font-size: 17px;
+    color:#707070;
+    line-height: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    line-height: 1.7rem;
+}
+.bottom-user-date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #505155;
+    margin-bottom: 25px;
+}
