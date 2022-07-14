@@ -50,12 +50,12 @@
 }
 
 .aboutWrapper .descriptionWrapper .description__title-dash {
-    color: rgb(238, 46, 20);
+    color: var(--dash-color);
 }
 
 .aboutWrapper .descriptionWrapper .description__subTitle {
     font-size: 45px;
-    color: #505155;
+    color: var(--description-text-dark);
     line-height: 1.2;
     font-family: Playfair Display, serif;
     font-weight: 700;
@@ -71,7 +71,7 @@
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0;
-    color: #505155;
+    color: var(--description-text-dark);
     margin: 0;
 }
 
@@ -105,7 +105,7 @@
 
 .aboutWrapper .attractions__item-link {
     font-size: 20px;
-    color: #505155;
+    color: var(--description-text-dark);
     margin-top: 20px;
     text-decoration: none;
     transition: text-decoration .2s ease-in-out, color .2s ease-in-out;
