@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 125px;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 }
 .testimonials__container {
     margin: 0 auto;
@@ -136,4 +136,19 @@ span.carousel-control-next-icon {
 }
 .carousel-indicators [data-bs-target] {
     background-image: url('..//img/testimonials__slider-indicator.svg');
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+    .testimonials__bottom {
+        display: none;
+    }
+    .testimonials__info {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    .bottom__user-text {
+        max-width: 70%;
+    }
 }
