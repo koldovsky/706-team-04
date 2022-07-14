@@ -85,6 +85,7 @@
     justify-content: space-between;
     list-style: none;
     margin-top: 120px;
+    margin-bottom: 20px;
 }
 
 .aboutWrapper .attractions__item {
@@ -152,6 +153,48 @@
     font-family: Roboto, sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+    .aboutWrapper {
+        padding: 0 10px;
+    }
+
+    .aboutWrapper .descriptionWrapper {
+        flex-direction: column;
+    }
+
+    .aboutWrapper .descriptionWrapper .illustration {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .aboutWrapper .descriptionWrapper .description {
+        flex-direction: column;
+        width: 100%;
+        flex-basis: 100%;
+        box-sizing: border-box;
+    }
+
+    .aboutWrapper .descriptionWrapper .description__section {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .aboutWrapper .descriptionWrapper .description__section:not(:first-child) {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutWrapper .attractions {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .aboutWrapper .attractions li {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
 
 
 
