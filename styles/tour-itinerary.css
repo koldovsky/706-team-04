@@ -1,18 +1,32 @@
 .route__content {
     background-image: url(../img/background__route.png);
     background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
 
+.route__content-text {
+    display: flex;
+    margin: 140px 140px;
+    padding-top: -40px;
+}
+
 .icon__map {
-    font-size: 17px;
-    font-family: "object-fit:cover";
-    font-weight: 400;
-    height: 499px;
-    line-height: 28.9px;
-    object-position: 50% 50%;
-    width: 467.5px;
-    text-align: left;
+    margin-right: 80px;
+}
+
+.route__map {
+    flex-direction: column;
+    width: 400px;
+    margin-right:  70px;
+}
+
+.icon__map-route {
+width: 570px;
+height: 608px;
 }
 
 .subtitle__devider {
@@ -32,6 +46,10 @@
     font-size: 45px;
     font-family: "Playfair Display", serif;
     text-align: left;
+}
+
+.list__offers {
+    list-style-type: none;
 }
 
 .photo__offers {
