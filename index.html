@@ -467,38 +467,45 @@
     <!--Кінець коду Andrii Kupinskyi (блок 5) -->
     <!-- Початок коду Куниця Ані -->
     <div class="main__carousel-images">
-      <h3 class="stunning-spots__title">
+      <div class="spots-carousel-text">
+        <h3 class="stunning-spots__title">
         <span class="stunning-spots__line">━</span> STUNNING SPOTS
-      </h3>
-      <p class="stunning-spots__subtitle">
+        </h3>
+        <p class="stunning-spots__subtitle">
         Beautiful
         <span class="stunning-spots__subtitle-grey">Landscapes</span>
-      </p>
-      <p class="stunning-spots__describtion">
+        </p>
+        <p class="stunning-spots__describtion">
         The beauty of Norway can hardly be overestimated. It has literally
         everything: glaciers, green forests, beaches. Come and see with your
         own eyes.
-      </p>
-      <div class="carousel-images__slides">
-        <div class="carousel-slide">
-          <img src="img/carousel-slide-red-boat.jpg" alt="Red boat on the background of mountains" width="400" />
+        </p>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-slide">
-          <img src="img/carousel-slide-ice.jpg" alt="Glacier on the background of mountains" width="400" />
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel-slide-red-boat.jpg" alt="Red boat on the background of mountains" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel-slide-ice.jpg" alt="Glacier on the background of mountains" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel-slide-sunset.jpg" alt="Man watching the sunset in the mountains" class="d-block w-100">
+          </div>
         </div>
-        <div class="carousel-slide">
-          <img src="img/carousel-slide-sunset.jpg" alt="Man watching the sunset in the mountains" width="400" />
-        </div>
-        <div class="carousel-slide">
-          <img src="img/carousel-slide-bridge.png" alt="People looking at the mountains while standing on the bridge"
-            width="400" />
-        </div>
-        <div class="carousel-slide">
-          <img src="img/carousel-slide-dark-houses.jpg" alt="Houses on the background of the forest" width="400" />
-        </div>
-        <div class="carousel-slide">
-          <img src="img/carousel-slide-houses-green.jpg" alt="Red houses on the lake" width="400" />
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
       <div class="main-quote">
         <div class="quote-divider-left"></div>
