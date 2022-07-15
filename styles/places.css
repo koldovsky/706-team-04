@@ -43,11 +43,16 @@
 }
 
 .places__content-city {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .city__image {
-
+    box-sizing: border-box;
+    height: 300px;
+    max-width: 600px;
+    padding: 3%;
 }
 
 .city__image img {
