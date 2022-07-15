@@ -25,13 +25,16 @@
     font-weight: 700;
     width: 80%;
     line-height: 40.8px;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 45px;
 }
 
 .stunning-spots__describtion {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 17px;
+    color: var(--description-text-light); 
+    font-size: 17px; 
+    font-weight: 400; 
+    font-family: Roboto,sans-serif;
+    margin-bottom: 60px;
 }
 
 .main__carousel-images,
@@ -65,6 +68,7 @@
     .carousel {
         width: 30%;
     }
+    
 }
 
 .spots-carousel-text { 
@@ -82,11 +86,74 @@
 @media (min-width: 600px) {
     .spots-carousel-text {
         width: 50%;
-    }
+        margin-left: 800px;
+  }
     .stunning-spots__subtitle {
         font-size: 45px;
     }
     .stunning-spots__title {
         font-size: 13px;
     }
+
+    .stunning-spots__describtion {
+        width: 65%;
+    }
 }
+
+.quote-divider-left, .quote-divider-right { 
+    color: var(--description-text-light); 
+    width: 20%; 
+} 
+
+/* .quote-elements { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    padding-bottom: 40px; 
+    align-items: center; 
+}  */
+
+.quotes > img { 
+    width: 30px; 
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 35px;
+}
+
+@media (min-width: 600px) {
+    .quotes > img {
+        width: 70px;
+    }
+
+    .quote-text {
+        width: 50%;
+    }
+}
+
+.quote-text { 
+    font-family: Playfair Display; 
+    font-size: 18px; 
+    color: white; 
+    width: 80%; 
+    text-align: center; 
+    margin: auto; 
+    font-weight: 600; 
+    padding-bottom: 40px;
+    line-height: 33.84px;
+} 
+
+.quote-author { 
+    font-size: 16px; 
+    font-family: Roboto,sans-serif; 
+    color: var(--description-text-light); 
+    padding-bottom: 40px; 
+    text-align: center; 
+} 
+
+.quote-divider-bottom { 
+    padding-bottom: 40px; 
+    color: var(--description-text-light); 
+    width: 44%; 
+    margin: auto; 
+} */
+
