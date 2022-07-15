@@ -21,15 +21,6 @@
     background-color: #232428;
 }
 
-.faq__content {
-    
-    display: flex;
-    text-align: center;
-    margin: 40px 140px;
-    display: flex;
-    color: whitesmoke;
-}
-
 .faq__content-information{
     font-family: Roboto,sans-serif;
     margin: 50px;
@@ -39,6 +30,28 @@
 .faq__content-img1 {
     width: 800px;
 }
+
+.accordion-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    margin: 15px auto;
+    line-height: 1.7;
+    color: var(--title-light-color);
+
+}
+
+.accordion-body {
+    margin: 15px auto;
+    line-height: 1.7;
+    color: var(--title-light-color);
+}
+
+.row{
+    height: 800px;
+    justify-items: center;
+    align-items: center;
+}
+
 
 .container {
     display: block;
