@@ -23,7 +23,6 @@
 
 .faq__content-information{
     font-family: Roboto,sans-serif;
-    margin: 50px;
     text-align: left;
 }
 
@@ -47,9 +46,10 @@
 }
 
 .row{
-    height: 800px;
+    height: 10%;
     justify-items: center;
     align-items: center;
+    padding: 5% 0px;
 }
 
 .faq__content-img1{
@@ -84,12 +84,10 @@
 .faq__content-information-title {
     font-family: 'Playfair Display', serif;
     max-width: 500px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 5% 0px;
     font-size: 50px;
     line-height: 1.7;
     color: var(--title-light-color);
-    font-weight: 400;
 }
 
 .faq__content-information-span {
@@ -107,6 +105,8 @@
 
 .faq__content-information-description {
     color: var(--title-light-color);
+    font-family: Roboto,sans-serif;
+    margin-bottom: 10%;
 }
 
 .faq__content-information-title-text {
