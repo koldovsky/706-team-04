@@ -3,10 +3,6 @@
     margin: 5%;
 }
 
-.places__text {
-    margin-right: 35%;
-}
-
 .places__text-title {
     font-size: 13px;
     line-height: 1.6;
@@ -47,15 +43,11 @@
 }
 
 .places__content-city {
-    display: flex;
-    flex-direction: row;
+
 }
 
 .city__image {
-    box-sizing: border-box;
-    width: 50%;
-    height: 900px;
-    padding: 3%;
+
 }
 
 .city__image img {
@@ -67,9 +59,7 @@
 }
 
 .city__text {
-    padding-right: 20%;
-    width: 50%;
-    height: 900px;
+    padding: 5% 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,17 +83,15 @@
     font-weight: 700;
     font-style: normal;
     letter-spacing: .03em;
-    margin: 20px 0 0;
+    margin: 10px 0 0;
 }
 
 .city__apartments {
-    display: flex;
     font-weight: bold;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .apartments__night {
-    width: 50%;
     font-size: 20px;
     color: var(--dash-color);
 }
@@ -111,7 +99,6 @@
 .apartments__type {
     font-size: 16px;
     color: #505155;
-    width: 50%;
 }
 
 .city__description {
@@ -135,8 +122,9 @@
     color: white;
     text-decoration: none;
     text-align: center;
-    padding: 10px;
-    width: 140px;
+    font-size: 15px;
+    padding: 5px;
+    width: 120px;
 
 }
 
@@ -144,15 +132,21 @@
     background-color:#262629;
     color: white;
 }
-/*
-@media (max-width: 760px) {
+
+@media (min-width: 760px) {
+    .places__text {
+        margin-right: 35%;
+    }
+
     .places__content-city {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
     }
 
     .city__image {
-        width: 100%;
-        height: auto;
+        box-sizing: border-box;
+        width: 50%;
+        height: 900px;
         padding: 3%;
     }
 
@@ -161,18 +155,38 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: 42.23% 100%;
+        object-position: 52.55% 45.379%;
     }
-    
 
     .city__text {
-        padding: 5% 10%;
-        width: 100%
+        padding: 0 20% 0 0;
+        width: 50%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .city__apartments {
         display: flex;
-        flex-direction: column;
+        font-weight: bold;
+        margin: 30px 0;
+    }
+
+    .city__subtitle{
+        margin: 20px 0;
+    }
+
+    .city__button{
+        padding: 10px;
+        width: 140px;
+    }
+
+    .apartments__night {
+        width: 50%;
+    }
+
+    .apartments__type {
+        width: 50%;
     }
 }
-*/
