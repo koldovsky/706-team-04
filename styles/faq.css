@@ -52,6 +52,9 @@
     align-items: center;
 }
 
+.faq__content-img1{
+    width: 100%;
+}
 
 .container {
     display: block;
