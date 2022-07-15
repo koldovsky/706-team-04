@@ -1,4 +1,3 @@
-
 .aboutWrapper {
     display: flex;
     flex-direction: column;
@@ -13,8 +12,8 @@
 }
 
 .aboutWrapper .descriptionWrapper .illustration {
-    flex-basis: calc(33.33333% - 30px);
-    width: calc(33.33333% - 30px);
+    flex-basis: 33.33333%;
+    width: 33.33333%;
     padding: 0 15px;
 }
 
@@ -29,12 +28,12 @@
 
 .aboutWrapper .descriptionWrapper .description {
     display: flex;
-    flex-basis: calc(66.66666%);
-    width: calc(66.66666%);
+    flex-basis: 66.66666%;
+    width: 66.66666%;
 }
 
 .aboutWrapper .descriptionWrapper .description__section {
-    width: calc(50% - 96px);
+    width: 50%;
     padding: 0 48px;
 }
 
@@ -153,6 +152,25 @@
     font-family: Roboto, sans-serif;
 }
 
+@media screen and (max-width: 1200px) {
+    .aboutWrapper .attractions {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .aboutWrapper .attractions li {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .aboutWrapper .attractions li {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .aboutWrapper {
         padding: 0 10px;
@@ -165,6 +183,10 @@
     .aboutWrapper .descriptionWrapper .illustration {
         flex-basis: 100%;
         width: 100%;
+    }
+
+    .aboutWrapper .descriptionWrapper .illustration__picture-img {
+        margin-bottom: 20px;
     }
 
     .aboutWrapper .descriptionWrapper .description {
@@ -184,17 +206,18 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 576px){
+    .aboutWrapper {
+        padding: 0 5px;
+    }
+
     .aboutWrapper .attractions {
         flex-wrap: wrap;
         padding: 0;
     }
 
     .aboutWrapper .attractions li {
-        width: 50%;
-        margin-bottom: 20px;
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
-
-
-
