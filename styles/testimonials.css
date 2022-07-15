@@ -3,58 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 125px;
-    padding-bottom: 100px;
-}
-.testimonials__container {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 1220px;
-}
-.testimonials__top {
-    max-width: 770px;
-    padding: 0 15px;
-    margin: 0 auto;
-    text-align: center;
-}
-.testimonials__heading {
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    color: var(--description-text-dark);
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    font-weight: 500;
-}
-.heading__inner {
-    display: inline-block;
-    width: 10px;
-    height: 15px;
-    color: rgb(238,46,20);
-}
-.testimonials__subtitle {
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    font-size: 45px;
-    color: var(--description-text-dark);
-    margin-bottom: 55px;
-}
-.testimonials__info {
-    font-family: 'Roboto' serif;
-    font-size: 19px;
-    color: var(--description-text-dark);
-    margin-bottom: 60px;
-}
-.testimonials__bottom {
-    text-align: center;
-}
-.bottom-user-photo {
-    margin-bottom: 10px;
-    border-radius: 50%;
-}
-.testimonials {
-    background-image: url('..//img/testimonials__background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 125px;
     padding-bottom: 120px;
 }
 .testimonials__container {
