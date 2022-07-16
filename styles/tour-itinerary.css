@@ -1,27 +1,30 @@
 .route__content {
     background-image: url(../img/background__route.png);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
 }
 
 .route__content-text {
     display: flex;
-    margin: 140px 140px;
-    padding-top: -40px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 120px;
 }
 
 .icon__map {
     margin-right: 80px;
+    padding-left: -20px;
+    padding-right: 10px;
 }
 
 .route__map {
     flex-direction: column;
     width: 400px;
-    margin-right:  70px;
+    margin-right: 30px;
+    padding-top: 40px;
 }
 
 .icon__map-route {
