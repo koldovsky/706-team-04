@@ -3,12 +3,13 @@
 
 .about_block-men-and-sea {
     background: url(../img/men_and_sea.jpg) no-repeat bottom ;
-    background-size: cover;
+    background-size: contain;
     height:1100px;
     
 }
 .about_text-block {
     display: flex;
+    margin-top: 100px;
 }
 
 .about__title-us {
@@ -21,15 +22,19 @@
 }
 .about__title-us-defis{
     color: red;
+    height: 20%;
+    
 }
 .about__title-us-tekst {
     font-family: 'Playfair Display', serif;
     font-size: 45px;
-    margin-left: 230px;
-    margin-right: 40px;
+    margin-left: 200px;
+    margin-right: px;
     font-stretch: normal;
     color: #505155;
     margin-top: 40px;
+    line-height: 55px;
+    width: 65%;
 }
 .about__10-days {
     color:#14a9ee;
@@ -52,7 +57,7 @@ margin-top: 35px;
 .about__contact{
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 100px;
 
 }
 .about__contact1-number {
@@ -68,6 +73,7 @@ padding: 0 10px;
 }
 .bout__contact1-zagolovok1 {
     margin-left: 40px;
+    font-size: 25px;
 }
 .about__contact1-tekst1 {
     margin-left: 40px;
@@ -84,6 +90,7 @@ padding: 0 10px;
 }
 .bout__contact2-zagolovok2 {
     margin-left: 40px;
+    font-size: 25px
 }
 .about__contact2-tekst2 {
     margin-left: 40px;
@@ -102,9 +109,77 @@ margin-left: 40px;
 }
 .bout__contact3-zagolovok3 {
     margin-left: 40px;
+    font-size: 25px
 }
 .about__contact3-tekst3 {
 margin-right: 50px;
 margin-left: 40px;
 }
+@media (max-width: 760px) {
+    .about__title-us-defis{
+        color: red;
+        height: 50px;
+    }
+    .about__title-us {
+        margin-left: 20px;
+        padding-bottom: 15px;
+    }
+    .about__title-us-tekst {
+       margin-left: 20px;
+       margin-right: 40px;
+       font-size: 35px;
+       width: -100px;
+    }
+    .about_text-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .about__contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+        
+    } 
+    .about__contact1-number {
+        background-color: rgb(255, 255, 255);
+        width: 673px;
+        height: 410px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        .about__contact2-number {
+            background-color: rgb(255, 255, 255);
+            width: 673px;
+            height: 410px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .about__contact3-number {
+            background-color: rgb(255, 255, 255);
+            width: 673px;
+            height: 410px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .about_block-men-and-sea {
+            background: url(../img/men_and_sea.jpg) no-repeat bottom ;
+            background-size: cover;
+            height:2000px;
+        }
+        .about__contact1-photo1 {
+            width: 400px;
+            height: 217px;
+        }
+        .about__contact2-photo2 {
+            width: 400px;
+            height: 217px;
+        }
+        .about__contact3-photo3 {
+            width: 350px;
+            height: 217px;
+        }
+        
 /*Vladimir Kulik Stop*/
