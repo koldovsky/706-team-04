@@ -7,21 +7,21 @@
     color: rgba(255, 255, 255, 0.6);
     font-family: Roboto, sans-serif;
     font-size: 13px;
-    color: var(--description-text-light); 
-    font-family: Roboto,sans-serif; 
-    font-size: 12px; 
+    color: var(--description-text-light);
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
     font-weight: 500;
     margin-top: 80px;
 }
 
-.stunning-spots__subtitle-grey { 
+.stunning-spots__subtitle-grey {
     color: var(--description-text-dark);
-} 
+}
 
-.stunning-spots__subtitle { 
-    color: white; 
-    font-size: 34px; 
-    font-family: Playfair Display; 
+.stunning-spots__subtitle {
+    color: white;
+    font-size: 34px;
+    font-family: Playfair Display;
     font-weight: 700;
     width: 80%;
     line-height: 40.8px;
@@ -30,10 +30,10 @@
 }
 
 .stunning-spots__describtion {
-    color: var(--description-text-light); 
-    font-size: 17px; 
-    font-weight: 400; 
-    font-family: Roboto,sans-serif;
+    color: var(--description-text-light);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
     margin-bottom: 60px;
 }
 
@@ -53,11 +53,6 @@
     text-align: center;
 }
 
-.svg-quotes {
-    margin: auto;
-    width: 50px;
-    display: block;
-}
 
 .carousel {
     width: 80%;
@@ -66,94 +61,127 @@
 
 @media (min-width: 600px) {
     .carousel {
-        width: 30%;
+        width: 50%;
     }
-    
+
 }
 
-.spots-carousel-text { 
-    display: flex; 
+.spots-carousel-text {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    text-align: left; 
-    width: 90%;
+    text-align: left;
+    width: 80%;
     padding: auto;
-    margin: auto; 
-    box-sizing: border-box;
-}  
+    margin: auto;
+}
+
+.stunning-spots__subtitle {
+    color: white;
+    font-size: 34px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    width: 80%;
+    line-height: 40.8px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
 
 @media (min-width: 600px) {
     .spots-carousel-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         width: 50%;
-        margin-left: 800px;
-  }
+    }
+
     .stunning-spots__subtitle {
         font-size: 45px;
     }
+
     .stunning-spots__title {
         font-size: 13px;
     }
 
-    .stunning-spots__describtion {
-        width: 65%;
-    }
 }
 
-.quote-divider-left, .quote-divider-right { 
-    color: var(--description-text-light); 
-    width: 20%; 
-} 
 
-/* .quote-elements { 
+.quote-divider-left,
+.quote-divider-right {
+    color: var(--description-text-light);
+    width: 36%;
+}
+
+.quote-elements { 
     display: flex; 
     flex-direction: row; 
     justify-content: center; 
-    padding-bottom: 40px; 
-    align-items: center; 
-}  */
+    padding-bottom: 30px; 
+    align-items: center;
+    padding-top: 150px;
+    
+    
+} 
 
 .quotes > img { 
-    width: 30px; 
+    width: 60px; 
+    margin: 20px; 
+} 
+
+
+
+.quote-text {
+    font-family: Playfair Display;
+    font-size: 18px;
+    color: white;
+    width: 80%;
+    text-align: center;
     margin: auto;
-    padding-top: 150px;
-    padding-bottom: 35px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    line-height: 33.84px;
+}
+
+.quote-author {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: var(--description-text-light);
+    padding-bottom: 40px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+
+.quote-divider-bottom {
+    padding-bottom: 40px;
+    color: var(--description-text-light);
+    width: 89%;
+    margin: auto;
 }
 
 @media (min-width: 600px) {
     .quotes > img {
-        width: 70px;
+        width: 85px;
     }
 
     .quote-text {
-        width: 50%;
+        width: 65%;
+        font-size: 21px;
     }
+
+    .main-quote {
+        width: 50%;
+        margin: auto;
+    }
+
+    .quote-divider-bottom {
+        width: 82%;
+    }
+
+    .quote-author {
+        font-size: 17px;
+    }
+
 }
-
-.quote-text { 
-    font-family: Playfair Display; 
-    font-size: 18px; 
-    color: white; 
-    width: 80%; 
-    text-align: center; 
-    margin: auto; 
-    font-weight: 600; 
-    padding-bottom: 40px;
-    line-height: 33.84px;
-} 
-
-.quote-author { 
-    font-size: 16px; 
-    font-family: Roboto,sans-serif; 
-    color: var(--description-text-light); 
-    padding-bottom: 40px; 
-    text-align: center; 
-} 
-
-.quote-divider-bottom { 
-    padding-bottom: 40px; 
-    color: var(--description-text-light); 
-    width: 44%; 
-    margin: auto; 
-} */
 
