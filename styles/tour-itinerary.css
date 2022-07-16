@@ -22,7 +22,7 @@
 
 .route__map {
     flex-direction: column;
-    width: 400px;
+    width: 515px;
     margin-right: 30px;
     padding-top: 40px;
 }
@@ -33,22 +33,57 @@ height: 608px;
 }
 
 .subtitle__devider {
-    color: rgb(238,46,20);
+    color: var(--dash-color);
     font-family: Roboto, sans-serif;
     font-size: 13px;
 }
 
 .route__map-subtitle {
-    color:rgba(255,255,255,0.6);
+    color: var(--subtitle-light-color);
     font-family: Roboto, sans-serif;
     font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.name__title {
+margin-bottom: 55px;
 }
 
 .first__name {
-    color: rgb(255, 255, 255);
+    color: var(--title-light-color);
     font-size: 45px;
     font-family: "Playfair Display", serif;
     text-align: left;
+    font-weight: 700;
+}
+
+.second__name {
+    color: var(--main__text-color);
+    font-size: 45px;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    font-weight: 700;
+}
+
+.route__decription {
+    color: var(--description-text-light);
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 0.51px;
+    line-height: 28.9px;
+    margin-bottom: 30px;
+}
+
+.route__offers {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.route__offers > p {
+    padding: 0px 30px 0px;
 }
 
 .list__offers {
@@ -56,7 +91,12 @@ height: 608px;
 }
 
 .photo__offers {
-    background: #14a9ee;
-    border-radius: 30%;
-    max-width: 100%;
+    background: var(--button-color);
+    border-radius: 40%;
+    max-height: 100%;
+    width: 60px;
+}
+
+.route__offers > .decription__offers .name__offers {
+    display: flex;
 }
