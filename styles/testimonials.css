@@ -29,6 +29,7 @@
     width: 10px;
     height: 15px;
     color: var(--dash-color);
+    margin-right: 5px;
 }
 .testimonials__subtitle {
     font-family: 'Playfair Display', serif;
@@ -42,9 +43,13 @@
     font-size: 19px;
     color: var(--description-text-dark);
     margin-bottom: 60px;
+    padding: 0 25px;
 }
 .testimonials__bottom {
     text-align: center;
+}
+#testimonials__carousel.carousel.slide {
+    width: 100%;
 }
 .bottom-user-photo {
     margin-bottom: 10px;
@@ -64,10 +69,11 @@
     max-width: 900px;
     font-size: 17px;
     color: var(--text-description-color);
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     margin: 0 auto;
     margin-bottom: 30px;
-    line-height: 1.7rem;
+    width: 75%;
+
 }
 .bottom__user-date {
     font-family: 'Roboto', sans-serif;
@@ -92,11 +98,5 @@ span.carousel-control-next-icon {
     }
     .testimonials__info {
         margin-bottom: 0;
-    }
-}
-
-@media (min-width: 500px) {
-    .bottom__user-text {
-        max-width: 70%;
     }
 }
