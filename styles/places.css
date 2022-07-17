@@ -3,8 +3,12 @@
     margin: 7%;
 }
 
+.places__text {
+    margin: 40px 0;
+}
+
 .places__text-title {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.6;
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -15,7 +19,7 @@
 }
 
 .places__text-subtitle {
-    font-size: 39px;
+    font-size: 45px;
     color: var(--description-text-dark);
     line-height: 1.2;
     font-family: Playfair Display, serif;
@@ -40,6 +44,18 @@
 .title__divider {
     color: var(--dash-color);
     margin-right: 5px;
+}
+
+.nav-link {
+    font-size: 17px;
+    letter-spacing: .03em;
+    font-family: Roboto, sans-serif;
+    color: var(--subtitle-dark-color);
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--description-text-dark);
 }
 
 .places__content-city {
@@ -71,7 +87,7 @@
 }
 
 .city__title {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.6;
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -81,7 +97,7 @@
 }
 
 .city__subtitle {
-    font-size: 33px;
+    font-size: 36px;
     color: var(--description-text-dark);
     line-height: 1.33;
     font-family: Playfair Display, serif;
@@ -121,7 +137,7 @@
 
 .city__features {
     display: flex;
-    font-size: 14px;
+    font-size: 15px;
     font-family: Roboto, sans-serif;
     color: var(--description-text-dark);
 }
