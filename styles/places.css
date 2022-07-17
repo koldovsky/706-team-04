@@ -4,19 +4,19 @@
 }
 
 .places__text-title {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.6;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-style: normal;
     letter-spacing: .03em;
-    color: #6f7380;
+    color: var(--subtitle-dark-color);
     margin: 0;
 }
 
 .places__text-subtitle {
-    font-size: 45px;
-    color: #505155;
+    font-size: 39px;
+    color: var(--description-text-dark);
     line-height: 1.2;
     font-family: Playfair Display, serif;
     font-weight: 700;
@@ -32,7 +32,7 @@
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0;
-    color: #505155;
+    color: var(--description-text-dark);
     margin: 0;
     padding: 3% 0%;
 }
@@ -71,23 +71,23 @@
 }
 
 .city__title {
-    font-size: 13px;
-    line-height: 1.7;
+    font-size: 12px;
+    line-height: 1.6;
     font-family: Roboto, sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     font-style: normal;
-    letter-spacing: 0;
-    color: #505155;
+    letter-spacing: .03em;
+    color: var(--description-text-dark);
 }
 
 .city__subtitle {
-    font-size: 30px;
-    color: #505155;
-    line-height: 1.2;
+    font-size: 33px;
+    color: var(--description-text-dark);
+    line-height: 1.33;
     font-family: Playfair Display, serif;
     font-weight: 700;
     font-style: normal;
-    letter-spacing: .03em;
+    letter-spacing: 0;
     margin: 10px 0 0;
 }
 
@@ -97,28 +97,37 @@
 }
 
 .apartments__night {
-    font-size: 20px;
+    font-size: 19px;
     color: var(--dash-color);
+    line-height: 1.7;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
 }
 
 .apartments__type {
-    font-size: 16px;
-    color: #505155;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: var(--description-text-dark);
 }
 
 .city__description {
-    font-size: 20px;
-    color: #6f7380;
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: .03em;
+    color: var(--text-description-color);
 }
 
 .city__features {
     display: flex;
     font-size: 14px;
-    color: #6f7380;
+    font-family: Roboto, sans-serif;
+    color: var(--description-text-dark);
 }
 
 .city__features > p {
-    padding: 10px 5px 0;
+    padding: 10px 10px 0;
 }
 
 .city__button {
@@ -126,6 +135,7 @@
     background-color: var(--button-color);
     color: white;
     text-decoration: none;
+    font-family: Roboto, sans-serif;
     text-align: center;
     font-size: 15px;
     padding: 5px;
