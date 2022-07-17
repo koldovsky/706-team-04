@@ -12,6 +12,8 @@
     --subtitle-light-color: rgba(255, 255, 255, 0.6); 
     --subtitle-dark-color: rgb(111, 115, 128); 
     --background-dark-color: rgb(35, 36, 40); 
+    --faq__subtitle_text-color: #a9a9a9;
+    
     
 
 }
@@ -32,17 +34,19 @@
 
 .accordion-header {
     font-family: 'Playfair Display', serif;
-    font-size: 1.5em;
-    margin: 15px auto;
+    font-size: 1.5rem;
     line-height: 1.7;
     color: var(--title-light-color);
 
 }
 
+.faq__hr {
+    color: var(--main__border-color);
+}
+
 .accordion-body {
-    margin: 15px auto;
     line-height: 1.7;
-    color: var(--title-light-color);
+    color: var(--faq__subtitle_text-color);
 }
 
 .row{
@@ -54,11 +58,6 @@
 
 .faq__content-img1{
     width: 100%;
-}
-
-.container {
-    display: block;
-    justify-content: center;
 }
 
 .faq__content-items {
@@ -83,10 +82,10 @@
 
 .faq__content-information-title {
     font-family: 'Playfair Display', serif;
+    margin-bottom: 5%;
     max-width: 500px;
-    padding: 5% 0px;
     font-size: 50px;
-    line-height: 1.7;
+    line-height: 1.4;
     color: var(--title-light-color);
 }
 
@@ -95,7 +94,8 @@
 }
 
 .faq__content-information-hyphen {
-    color: var(--title-light-color);
+    font-family: Roboto,sans-serif;
+    color: var(--subtitle-dark-color);
 }
 
 .faq__content-information-subtitle {
@@ -103,9 +103,15 @@
     
 }
 
+.accordion-button {
+    font-size: 1.1rem;
+    margin-bottom: 2%;
+}
+
 .faq__content-information-description {
-    color: var(--title-light-color);
+    color: var(--faq__subtitle_text-color);
     font-family: Roboto,sans-serif;
+    font-size: 1.1rem;
     margin-bottom: 10%;
 }
 
