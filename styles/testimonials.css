@@ -29,6 +29,7 @@
     width: 10px;
     height: 15px;
     color: var(--dash-color);
+    margin-right: 5px;
 }
 .testimonials__subtitle {
     font-family: 'Playfair Display', serif;
