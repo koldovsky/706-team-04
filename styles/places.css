@@ -1,6 +1,6 @@
 /* Kupinskyi */
 .places {
-    margin: 5%;
+    margin: 7%;
 }
 
 .places__text-title {
@@ -50,13 +50,13 @@
 
 .city__image {
     box-sizing: border-box;
-    height: 300px;
+    height: 400px;
     max-width: 600px;
-    padding: 3%;
+    padding: 5%;
 }
 
 .city__image img {
-    padding: 5%;
+    padding: 3%;
     width: 100%;
     height: 100%;
     object-fit: cover;
