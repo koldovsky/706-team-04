@@ -1,0 +1,104 @@
+.blog {
+    margin: 100px  0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.blog * {
+    box-sizing: border-box;
+}
+
+.blog__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--description-text-dark);
+}
+
+.blog__head-dash {
+    color: var(--dash-color);
+}
+
+.blog__head-subtitle {
+    font-size: 17px;
+    line-height: 1.6;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .03em;
+    color: #6f7380;
+    margin: 0;
+}
+
+.blog__head-description {
+    font-size: 47px;
+    color: #505155;
+    line-height: 1.2;
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .03em;
+    margin: 40px 0 0;
+}
+
+.blog__head-text {
+    text-align: center;
+    font-size: 23px;
+    line-height: 1.7;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #505155;
+    max-width: 520px;
+    margin-top: 50px;
+}
+
+.blog__stories {
+    background-image: url("../img/bg-blog.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    padding: 40px;
+    overflow: auto;
+    margin-top: 30px;
+}
+
+.blog__stories-text {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 8px 4px white;
+    text-shadow: 0 0 1px white;
+    text-align: left;
+    padding: 8px;
+}
+
+.blog__stories-text span:first-of-type {
+    margin: 0 8px;
+}
+
+.blog__stories-img {
+    width: 120px;
+    min-width: 120px;
+    height: 120px;
+    min-height: 120px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 568px ) {
+    .blog__stories-text {
+        flex-direction: column;
+    }
+
+    .blog__stories-text span:first-of-type {
+        margin: 8px;
+    }
+}
+
+
