@@ -20,7 +20,7 @@
 }
 
 .inscription__divider {
-    color: rgb(238,46,20);
+    color: var(--dash-color);
     font-weight: bold;
 }
 
