@@ -3,19 +3,68 @@
     background-size: cover;
     background-position: center;
     display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 1%;
+}
+
+.header__inner {
+    margin-left: 30%;
+    margin-top: 6%;
+}
+
+.header__inscription {
+    color: #fff;
+}
+
+.header__inner-title {
+    font-size: 120px;
+    color: #fff;
+}
+
+.header__inner-videoicon img {
+    width: 12px;
+    height: 100%;
+
+}
+
+.header__inner-videoicon a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__inner-video-preview {
+    margin-left: 50%;
+    margin-bottom: 8%;
+}
+
+.header__inner-video-preview img{
+    width: 60%;
 }
 
 .video-preview__subtitle {
     color: #fff;
     list-style-type: none;
+    padding: 3% 0;
+}
+
+.subtitle__name{
+    font-weight: bold;
+}
+
+.subtitle__name, .subtitle__cost-and-dates, .subtitle__description {
+    margin: 2% 0;
 }
 
 .subtitle__detailed a{
     text-decoration: none;
-    color: #fff;
-}
-
-.header__inscription {
     color: #fff;
 }
 
@@ -24,29 +73,10 @@
     font-weight: bold;
 }
 
-.header__inner-videoicon img{
-    width: 12px;
-    height: 100%;
-    
-}
-
-.header__inner-videoicon a{
-    text-decoration: none;
-    color: #fff
-}
-
-
-
 .header__navbar-logo img{
     width: 188px;
     height: auto;
 }
-
-.header__inner-title {
-    font-size: 120px;
-    color: #fff;
-}
-
 
 .menu__link {
     text-decoration: none;
