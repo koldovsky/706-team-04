@@ -34,7 +34,7 @@
 }
 
 .header__inscription {
-    color: #fff;
+    color: var(--title-light-color);
     font-weight: 600;
     font-family: Roboto, sans-serif;
 }
@@ -42,7 +42,7 @@
 .header__inner-title {
     font-family: Playfair Display, serif;
     font-size: 170px;
-    color: #fff;
+    color: var(--title-light-color);
 }
 
 .header__inner-videoicon {
@@ -57,7 +57,7 @@
 
 .header__inner-videoicon a {
     text-decoration: none;
-    color: #fff;
+    color: var(--title-light-color);
 }
 
 .header__inner-video-preview {
@@ -70,7 +70,7 @@
 }
 
 .video-preview__subtitle {
-    color: #fff;
+    color: var(--title-light-color);
     list-style-type: none;
     padding: 3% 0;
 }
@@ -85,7 +85,7 @@
 
 .subtitle__detailed a{
     text-decoration: none;
-    color: #fff;
+    color: var(--title-light-color);
 }
 
 .subtitle__description {
@@ -109,5 +109,5 @@
 }
 
 .header__menu-navbar a{
-    color: #fff;
+    color: var(--title-light-color);
 }
