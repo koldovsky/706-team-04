@@ -111,3 +111,20 @@
 .header__menu-navbar a{
     color: var(--title-light-color);
 }
+
+@media (max-width: 780px) {
+    .header__inner-title {
+        font-size: 100px;
+    }
+
+    .header__inner-video-preview {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    .header__inner-video-preview img {
+        width: 80%;
+    }
+}
