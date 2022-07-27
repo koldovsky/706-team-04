@@ -178,7 +178,7 @@
     font-style: normal;
     letter-spacing: 0;
     color: white;
-    background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background: var(--background-dark-color);
     border-radius: 23px;
     padding: 5px;
     box-shadow: 1px 1px 5px rgba(255,255,255,.15), 0 15px 90px 30px rgba(0,0,0,.25);
@@ -187,7 +187,8 @@
 
 .places__countdown p a {
     text-decoration: none;
-    color: var(--description-text-dark);
+    color: var(--description-text-light);
+    font-style: italic;
 }
 
 .countdown-timer {
