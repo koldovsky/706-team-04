@@ -1,0 +1,130 @@
+
+.footer__end {
+    background: url(../img/white-mountains.jpg) no-repeat bottom ;
+    background-size: cover;
+    padding-top: 125px;
+    padding-bottom: 50px;
+}
+.block__footer {
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.block__footer__mail {
+    background: rgba(0, 0, 0, 0.7);
+    width: 370px;
+    height: 340px;
+    margin-right: 20px;   
+    
+}
+.img__footer1 {
+   margin-left: 46%;
+   margin-top: 50px;
+}
+.text__footer1 {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.text__footer1__a {
+    margin: 25%;
+    color: aliceblue;
+}
+
+.block__footer__visit {
+    background: rgba(0, 0, 0, 0.7);
+    width: 370px;
+    height: 340px;
+}
+.img__footer2 {
+    margin-left: 46%;
+    color: aliceblue;
+    margin-top: 50px;
+}
+.text__footer2 {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.block__footer__phone {
+    background: rgba(0, 0, 0, 0.7);
+    width: 370px;
+    height: 340px;
+    margin-left: 20px;
+}
+.img__footer3 {
+    margin-left: 46%;
+    color: aliceblue;
+    margin-top: 50px;
+}
+.text__footer3 {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.text__footer3__a {
+    margin: 30%;
+    color: white;
+}
+.norway__footet__end {
+    
+}
+.norway_img_footer {
+    width: 12%;
+    margin-left: 44%;
+    margin-top: 1%;
+}
+.footer__a__end {
+    margin-left: 39%;
+    margin-top: 2%;
+    ;
+}
+.footer__a__end1 {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    margin-right: 1%;
+}
+.footer__a__end2 {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    margin-right: 1%;
+}
+.footer__a__end3 {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    margin-right: 1%;
+}
+.footer__a__end4 {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    margin-right: 1%;
+}
+.footer__a__end5 {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    margin-right: 1%;
+}
+
+.block__footer__inst {
+    margin-top: 2%;
+}
+.block__footer__inst__text1 {
+    color: aliceblue;
+    display: inline-block;
+    margin-left: 180px;
+}
+.block__footer__inst_info1 {
+    margin-left: 450px;
+    margin-right: 1%;
+}
+.block__footer__inst_info2 {
+    margin-right: 1%;
+}
+.block__footer__inst_info3 {
+    margin-right: 1%;
+}
+.block__footer__inst__text2 {
+    color: aliceblue;
+    display: inline-block;
+    margin-left: 410px;
+}
