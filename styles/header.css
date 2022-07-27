@@ -128,7 +128,7 @@
 }
 
 @media (max-width: 768px) {
-    .menu__link {
+    .header__menu-navbar {
         display: none;
     }
 
@@ -149,6 +149,8 @@
 
     .menu-navbar__burger {
         display: block;
+        position: fixed;
+        right: 50px;
     }
 
     .menu-navbar__burger.active .burger__bar:nth-child(2) {
@@ -163,7 +165,8 @@
         transform: translateY(-8px) rotate(-45deg);
     }
     
-    .menu__link{
+    .header__menu-navbar{
+        display: flex;
         position: fixed;
         left: -100%;
         top: 70px;
@@ -171,9 +174,14 @@
         flex-direction: column;
         background-color: #232428;
         width: 100%;
+        height: 100%;
         text-align: center;
-        transition: 0.3s;
-        margin: 16px 0;
+        margin: 0;
+        padding: 5% 0;
+    }
+
+    .menu__link {
+        padding: 10px 0;
     }
 
     .header__menu-navbar.active{
