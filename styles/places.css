@@ -221,3 +221,24 @@
         width: 50%;
     }
 }
+
+.places__countdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 19px;
+    line-height: 1.7;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: var(--description-text-dark);
+    border: 1px solid var(--subtitle-dark-color);
+}
+
+.countdown-timer {
+
+}
