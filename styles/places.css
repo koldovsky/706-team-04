@@ -245,5 +245,5 @@
 
 .places__countdown p a {
     text-decoration: none;
-    color: #c0ddda;
+    color: var(--description-text-dark);
 }

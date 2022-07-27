@@ -1,4 +1,3 @@
-(function() {
 const countDownDate = new Date("Aug 15, 2022 00:00:00").getTime();
 
 const x = setInterval(function() {
@@ -15,4 +14,3 @@ const x = setInterval(function() {
     document.querySelector(".countdown-timer").innerHTML = "Booking is closed! Please come back later!";
   }
 }, 1000);
-})();
