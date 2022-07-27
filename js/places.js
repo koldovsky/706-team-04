@@ -1,6 +1,6 @@
+(function () {
 const countDownDate = new Date("Aug 15, 2022 00:00:00").getTime();
-
-const x = setInterval(function() {
+const intervalID = setInterval(function() {
   const now = new Date().getTime();
   const distance = countDownDate - now;
   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -10,7 +10,8 @@ const x = setInterval(function() {
   document.querySelector(".countdown-timer").innerHTML = days + "d : " + hours + "h : "
   + minutes + "m : " + seconds + "s ";
   if (distance < 0) {
-    clearInterval(x);
+    clearInterval(intervalID);
     document.querySelector(".countdown-timer").innerHTML = "Booking is closed! Please come back later!";
   }
 }, 1000);
+})();
