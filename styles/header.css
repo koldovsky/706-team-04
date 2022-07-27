@@ -131,7 +131,7 @@
     .header__menu-navbar {
         display: none;
     }
-
+    
     .header__inner-title {
         font-size: 100px;
     }
@@ -164,13 +164,12 @@
     .menu-navbar__burger.active .burger__bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    
-    .header__menu-navbar{
+
+    .header__menu-navbar {
         display: flex;
         position: fixed;
         left: -100%;
-        top: 70px;
-        gap: 0;
+        top: 0;
         flex-direction: column;
         background-color: #232428;
         width: 100%;
@@ -178,13 +177,14 @@
         text-align: center;
         margin: 0;
         padding: 5% 0;
+        
     }
 
     .menu__link {
         padding: 10px 0;
     }
 
-    .header__menu-navbar.active{
+    .header__menu-navbar.active {
         left: 0;
     }
 }
