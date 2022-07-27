@@ -164,6 +164,37 @@
     color: white;
 }
 
+.places__countdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 1.7;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: white;
+    background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border-radius: 23px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px rgba(255,255,255,.15), 0 15px 90px 30px rgba(0,0,0,.25);
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.places__countdown p a {
+    text-decoration: none;
+    color: var(--description-text-dark);
+}
+
+.countdown-timer {
+    font-size: 30px;
+    margin-top: -20px;
+}
+
 @media (min-width: 760px) {
     .places__text {
         margin-right: 35%;
@@ -220,30 +251,8 @@
     .apartments__type {
         width: 50%;
     }
-}
 
-.places__countdown {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    font-size: 25px;
-    line-height: 1.7;
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 0;
-    color: white;
-    background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-    border-radius: 15px;
-    padding: 20px 0;
-    box-shadow: 1px 1px 5px rgba(255,255,255,.15), 0 15px 90px 30px rgba(0,0,0,.25);
-    font-family: 'Montserrat', 'sans-serif';
-}
-
-.places__countdown p a {
-    text-decoration: none;
-    color: var(--description-text-dark);
+    .places__countdown {
+        width: 50%;
+    }
 }
