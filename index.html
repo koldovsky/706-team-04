@@ -34,6 +34,11 @@
           <a href="#faq" class="menu__link">FAQ</a>
           <a href="" class="menu__link button">Join us →</a>
         </div>
+        <div class="menu-navbar__burger">
+            <span class="burger__bar"></span>
+            <span class="burger__bar"></span>
+            <span class="burger__bar"></span>
+        </div>
       </nav>
       <div class="header__inner">
         <p class="header__inscription">
@@ -471,6 +476,10 @@
           <!-- End block final point-->
         </div>
       </div>
+      <div class="places__countdown">
+        <p>The number of seats is limited, make a <a href="#">reservation!</a></p>
+        <p>Booking closes through:</p>
+        <div class="countdown-timer"></div>
       </div>
     </section>
     <!--Кінець коду Andrii Kupinskyi (блок 5) -->
@@ -730,106 +739,65 @@
         <p class="blog__head-text">Start preparing for your trip to Norway with our blog. We write about the most
           unusual places in this country and share life hacks.</p>
       </div>
-      <div class="blog__stories">
-        <p class="blog__stories-text"><img class="blog__stories-img" src="img/aurland.jpeg"
-                                           alt="aurland"><span><strong>Aurland:</strong></span><span>You might've heard of the Flåm
-                    Railway, often referred to as one of the prettiest train rides in the entire world. As a result of
-                    its reputation, the town of Flåm - the terminus of the line - is quite a hectic place. Instead of
-                    hopping off the train here, head six miles north to Aurland. It sits at the end of the
-                    Aurlandsfjorden, the world's deepest fjord, and the Aurland Valley is often referred to as "Norway's
-                    Grand Canyon." That's code for the town being surrounded by dramatic cliffs and waterfalls, both
-                    pouring into the tranquil waters of the fjord below. In Aurland, you'll get the same amazing
-                    experience as you would in Flåm, but without flocks of tourists slowing everything down.
-                    While there, go up to the Stegastein Viewpoint, hike in the mountains of the Aurland Valley (from
-                    Geiteryggen, it's a four-hour hike to the well-known Steinbergdalen), and end it all with a stop at
-                    Aurlandskafeen for a cup of true Norwegian coffee.</span></p>
-        <p class="blog__stories-text"><img class="blog__stories-img" src="img/roros.jpeg"
-                                           alt="roros"><span><strong>Røros:</strong></span><span>One of the oldest "wooden towns" in
-                    all of Europe, all of Røros is a UNESCO World Heritage Site (conveniently located on the train
-                    line). The narrow streets are the same as they were in the 1600s, and as you wander through town,
-                    it'll feel like an intricate maze of alleyways and courtyards that never ends. Stop by Olav's Mine
-                    to see how the town originated, head down into the cellar of Rammkjellarn for local fare and on-site
-                    brews, and if you're visiting in winter, rent a kicksled to get around the snowy streets. Don't
-                    worry — you'll blend right in.</span></p>
-        <p class="blog__stories-text"><img class="blog__stories-img" src="img/reine.jpeg"
-                                           alt="reine"><span><strong>Reine:</strong></span><span>If jagged, snow-capped mountains were
-                    slowly getting swallowed by the sea and a few stubborn fisherman decided to build a town anyway,
-                    that would be Reine. The colorful cottages and winding streets almost seem to fall away into the
-                    water — Reine is in the Lofoten archipelago — but not before the land rises again, granite jutting
-                    thousands of feet into the air. This place is a postcard if ever there were one.
-                    If you're looking to explore the Lofoten Islands, Reine is an obvious stop. It's located right on
-                    E10 (the scenic drive through the islands), the village is quiet, and the scenery is unparalleled.
-                    Leave time to hike Reinebringen — the steep scramble will lead you to one of the most panoramic
-                    points across the islands.</span>
-        </p>
-        <p class="blog__stories-text"><img class="blog__stories-img" src="img/trondeim-norway.jpeg"
-                                           alt="frdrikstad"><span><strong>Fredrikstad:</strong></span><span>Five hundred years ago,
-                    Fredrikstad operated as a fortress, and it's now one of the best-preserved across all of
-                    Scandinavia. From above it still looks like a perfect six-pointed star — moats much like the canals
-                    of Amsterdam or Copenhagen surround the Old Town, a perfect place for grabbing a patio-side coffee
-                    or looking through local art galleries that almost always come with a view.
-                    A free ferry runs from downtown to Old Town several times a day, and it's an easy way to get some
-                    great views from the water. Otherwise, the nearby Hvaler Islands are one of the sunniest places in
-                    the country and worth a stop once you get your fill at the many cafés (check out Café Oline for a
-                    nice glass of vino), museums, and boutiques.</span></p>
-        <p class="blog__stories-text"><img class="blog__stories-img" src="img/undredal.jpeg"
-                                           alt=""><span><strong>Undredal:</strong></span><span>Apart from being a picturesque
-                    fishing village on the edge of a fjord (like many of Norway's amazing towns), Undredal has two
-                    claims to fame: its stave church and brown cheese. The former was built in the 1100s, and yet you
-                    could only get to the town by boat up until 1988.
-                    And brown cheese, or brunost, may not seem notable, but you haven't had Norwegian cuisine until
-                    you've experienced it. Undredal's variety is widely regarded as the best in the country - the ratio
-                    of goats to people is 5:1 - and it's a must-try. Slightly sweet and heavy, it's usually eaten on
-                    sandwiches or with Norwegian waffles. If you're not a fan, give brown cheese ice cream a try: it's
-                    like caramel, but smoother and a little less sweet. Check out Undredalsbui to get your hands on some
-                    samples of this iconic Norwegian staple, and be sure to grab extra to take back home.</span></p>
+      <div id="blogStories" class="blog__stories">
+        <div class="blog__stories-buttons">
+          <button id="blogListButton">List</button>
+          <button id="blogCarouselButton">Carousel</button>
+        </div>
+        <div id="blogContent" class="blog__stories-content"></div>
       </div>
     </section>
 <!--Кінець коду Kukhtina Nadiia (блок 10)-->
   </main>
-    <footer>
-      <div class="footer__end">
-         <div class=" block__footer">
-          <div class="block__footer__mail">
-            <img class="img__footer1" src="img/mail@-footer.svg"  width="40" alt="mail footer">
-            <p class="text__footer1">Write Us</p>
-            <a class="text__footer1__a" href="mailto:norway-tour@email.com">norway-tour@email.com</a>
-          </div>
-          <div class="block__footer__visit">
-            <img class="img__footer2" src="img/visit__us__map.svg" width="40" alt="visit us map">
-            <p class="text__footer2">Visit Us</p>
-            <p class="text__footer2">Tollbugata 15C, 0152 Oslo</p>
-          </div>
-          <div class="block__footer__phone">
-            <img class="img__footer3" src="img/phone__call__footer.svg" width="40" alt="phone call footer">
-            <p class="text__footer3">Call Us</p>
-            <a class="text__footer3__a" href="tel:+12345678900">+1 (234) 567 89 00</a>
-          </div>
-        </div>
-        <div class="norway__footet__end">
-          <a href=""><img class="norway_img_footer" src="img/n_orwa_y.png" alt="norway-footer"></a>
-        </div>
-        <div class="footer__a__end"> 
-          <a class="footer__a__end1" href="#about">About us</a>
-          <a class="footer__a__end2" href="">Itinerary</a>
-          <a class="footer__a__end3" href="">Testimonials</a>
-          <a class="footer__a__end4" href="">Blog</a>
-          <a class="footer__a__end5" href="">Contacts</a>
-        </div>
-        <div class="block__footer__inst">
-          <p class="block__footer__inst__text1">
-            © Created by
-          </p>
-          <a href=""><img src="img/footer__f.svg" alt="footerf"></a>
-          <a class="block__footer__inst_info1" href=""><img src="img/footer__f.svg" alt=""></a>
-          <a class="block__footer__inst_info2" href="">w</a>
-          <a class="block__footer__inst_info3" href="">w</a>
-          <p class="block__footer__inst__text2">
-            All rights Reserved
-          </p>
-        </div>
-      </div>
-    </footer>
+
+  <footer class="footer">
+    <div class="footer__end">
+      <div class=" block__footer">
+       <div class="block__footer__mail">
+         <img class="img__footer1" src="img/mail@-footer.svg"  width="40" alt="mail footer">
+         <p class="text__footer1">Write Us</p>
+         <a class="text__footer1__a" href="mailto:norway-tour@email.com">norway-tour@email.com</a>
+       </div>
+       <div class="block__footer__visit">
+         <img class="img__footer2" src="img/visit__us__map.svg" width="40" alt="visit us map">
+         <p class="text__footer2">Visit Us</p>
+         <p class="text__footer2">Tollbugata 15C, 0152 Oslo</p>
+       </div>
+       <div class="block__footer__phone">
+         <img class="img__footer3" src="img/phone__call__footer.svg" width="40" alt="phone call footer">
+         <p class="text__footer3">Call Us</p>
+         <a class="text__footer3__a" href="tel:+12345678900">+1 (234) 567 89 00</a>
+       </div>
+     </div>
+     <div class="norway__footet__end">
+       <a href=""><img class="norway_img_footer" src="img/n_orwa_y.png" alt="norway-footer"></a>
+     </div>
+     <div class="footer__a__end"> 
+       <a class="footer__a__end1" href="#about">About us</a>
+       <a class="footer__a__end2" href="">Itinerary</a>
+       <a class="footer__a__end3" href="">Testimonials</a>
+       <a class="footer__a__end4" href="">Blog</a>
+       <a class="footer__a__end5" href="">Contacts</a>
+     </div>
+     <div class="block__footer__inst">
+       <p class="block__footer__inst__text1">
+         © Created by
+       </p>
+       <a class="block__footer__inst_info1" href=""><img src="img/footer__f.svg" alt="f"></a>
+       <a class="block__footer__inst_info2" href="">w</a>
+       <a class="block__footer__inst_info3" href="">w</a>
+       <p class="block__footer__inst__text2">
+         All rights Reserved
+       </p>
+     </div>
+   </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+    <script src="js/header.js"></script>
+    <script src="js/places.js"></script>
+    <script src="js/blog.js"></script>
 </body>
 
 </html>
