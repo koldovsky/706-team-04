@@ -53,19 +53,6 @@
     text-align: center;
 }
 
-
-/* .carousel {
-    width: 80%;
-    margin: auto;
-}
-
-@media (min-width: 600px) {
-    .carousel {
-        width: 50%;
-    }
-
-} */
-
 .spots-carousel-text {
     display: flex;
     flex-direction: column;
