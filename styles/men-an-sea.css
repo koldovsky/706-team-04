@@ -140,8 +140,9 @@ margin-left: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 480px;
         min-width: 367px;
+        height: 200px;
         
     } 
     .about__contact1-number {
@@ -175,16 +176,16 @@ margin-left: 40px;
             
         }
         .about__contact1-photo1 {
-            width: 400px;
-            height: 217px;
+            width: 200px;
+            height: 117px;
         }
         .about__contact2-photo2 {
-            width: 400px;
-            height: 217px;
+            width: 200px;
+            height: 117px;
         }
         .about__contact3-photo3 {
-            width: 300px;
-            height: 217px;
+            width: 180px;
+            height: 117px;
         }
         .about__description-oll {
           width: 100%;
