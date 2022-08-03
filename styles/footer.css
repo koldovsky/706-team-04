@@ -152,27 +152,23 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-width: 367px;
     }
     .block__footer__mail {
         width:  370px;
         height: 310px;
-        margin-left: 12%;
-        margin-right: 30px;
+        margin-left: 30px;
         margin-bottom: 30px;
     }
     .block__footer__visit {
         width:  370px;
         height: 310px;
-        margin-left: 12%;
-        margin-right: 30px;
+        margin-left: 30px;
         margin-bottom: 30px;
     }
     .block__footer__phone {
         width:  370px;
         height: 310px;
-        margin-left: 12%;
-        margin-right: 30px;
+        margin-left: 30px;
         margin-bottom: 30px;
     }
     .footer__a__end {

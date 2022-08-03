@@ -1,6 +1,5 @@
 
 
-
 .about_block-men-and-sea {
     background: url(../img/men_and_sea.jpg) no-repeat bottom ;
     background-size: contain;
@@ -114,6 +113,83 @@ margin-left: 40px;
 margin-right: 50px;
 margin-left: 40px;
 }
+.clock_sea{
+    width:350px;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/clock_sea.png), no-repeat bottom;
+    background-size: cover;
+    box-shadow: 0 -15px 15px rgba(134,134,134,0.35), inset 0 -15px -15px #191919,
+    0 15px 15px rgba(134,134,134,0.35), inset 0 15px -15px #191919;
+    border-radius: 50%;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.clock_sea::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+.clock_sea .hour_sea,
+.clock_sea .min_sea,
+.clock_sea .sec_sea{
+    position: absolute
+}
+.clock_sea .hour_sea .hr{
+width: 160px;
+height: 160px;
+}
+.clock_sea .min_sea .mn{
+width: 190px;
+height: 190px;
+}
+.clock_sea .sec_sea .sc{
+width: 230px;
+height: 230px;
+}
+
+.hr, .mn, .sc{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.hr:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 80px;
+    background-color: rgb(87, 57, 23);
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+.mn:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background-color:  rgb(87, 57, 23);
+    z-index: 11;
+    border-radius: 6px 6px 0 0;
+}
+.sc:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 140px;
+    background-color: rgb(87, 57, 23);
+    z-index: 12;
+    border-radius: 6px 6px 0 0;
+}
+
+
+
 @media (max-width: 760px) {
     .about__title-us-defis{
         color: red;
@@ -178,18 +254,20 @@ margin-left: 40px;
         .about__contact1-photo1 {
             width: 200px;
             height: 117px;
+            margin-top: 15px;
         }
         .about__contact2-photo2 {
             width: 200px;
             height: 117px;
+            margin-top: 15px;
         }
         .about__contact3-photo3 {
             width: 180px;
             height: 117px;
+            margin-top: 15px;
         }
         .about__description-oll {
           width: 100%;
-          
         }
         .about__description1 {
             margin-left: 20px;
