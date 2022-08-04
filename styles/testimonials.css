@@ -5,7 +5,7 @@
     padding-top: 125px;
     padding-bottom: 120px;
 }
-.testimonials__container {
+.testimonials__container{
     margin: 0 auto;
     padding: 0 20px;
     max-width: 1220px;
@@ -15,6 +15,11 @@
     padding: 0 15px;
     margin: 0 auto;
     text-align: center;
+}
+.clock{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 35px;
 }
 .testimonials__heading {
     font-family: 'Roboto', sans-serif;
@@ -29,7 +34,6 @@
     width: 10px;
     height: 15px;
     color: var(--dash-color);
-    margin-right: 5px;
 }
 .testimonials__subtitle {
     font-family: 'Playfair Display', serif;
@@ -43,60 +47,47 @@
     font-size: 19px;
     color: var(--description-text-dark);
     margin-bottom: 60px;
-    padding: 0 25px;
+    line-height: 1.5rem;
 }
-.testimonials__bottom {
+.testimonials__slider{
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+    align-items: center;
+
 }
-#testimonials__carousel.carousel.slide {
-    width: 100%;
+button{
+   border-style: none;
+   background: transparent;
 }
+
 .bottom-user-photo {
     margin-bottom: 10px;
     border-radius: 50%;
     width: 120px;
     height: 120px;
 }
-.bottom__user-name {
+.bottom-user-name {
     font-family: 'Roboto', serif;
-    font-size: 29px;
+    font-size: 24px;
     font-weight: 500;
     color: var(--background-dark-color);
     margin: 25px 0;
 }
-.bottom__user-text {
+.bottom-user-text {
     font-family: 'Roboto', sans-serif;
-    max-width: 900px;
+    max-width: 1010px;
     font-size: 17px;
     color: var(--text-description-color);
-    line-height: 1.7rem;
+    line-height: 1.5rem;
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 75%;
-
+    line-height: 1.7rem;
 }
-.bottom__user-date {
+.bottom-user-date {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 600;
     color: var(--description-text-dark);
     margin-bottom: 100px;
-}
-span.carousel-control-prev-icon {
-    background-image: url('..//img/testimonials__slider-left-arrow.png');
-}
-span.carousel-control-next-icon {
-    background-image: url('..//img/testimonials__slider-right-arrow.png');
-}
-.carousel-indicators [data-bs-target] {
-    background-image: url('..//img/testimonials__slider-indicator.svg');
-}
-
-@media (min-width: 0px) and (max-width: 500px) {
-    .testimonials__bottom {
-        display: none;
-    }
-    .testimonials__info {
-        margin-bottom: 0;
-    }
 }
