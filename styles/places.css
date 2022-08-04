@@ -148,20 +148,65 @@
 
 .city__button {
     margin-top: 40px;
-    background-color: var(--button-color);
-    color: white;
-    text-decoration: none;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 10px 25px;
     font-family: Roboto, sans-serif;
-    text-align: center;
-    font-size: 15px;
-    padding: 5px;
-    width: 120px;
-
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    right: 20px;
+    bottom: 20px;
+    border:none;
+    line-height: 42px;
+    perspective: 230px;
 }
-
-.city__button:hover {
-    background-color:#262629;
-    color: white;
+  
+.city__button span {
+    background: linear-gradient(#00b4db, #0083b0);
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    border-radius: 5px;
+    margin:0;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all .3s;
+  }
+  
+.city__button span:nth-child(1) {
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;;
+    transform: rotateX(90deg);
+    transform-origin: 50% 50% -20px;
+  }
+.city__button span:nth-child(2) {
+    transform: rotateX(0deg);
+    transform-origin: 50% 50% -20px;
+  }
+.city__button:hover span:nth-child(1) {
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transform: rotateX(0deg);
+  }
+.city__button:hover span:nth-child(2) {
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    color: transparent;
+    transform: rotateX(-90deg);
 }
 
 .places__countdown {

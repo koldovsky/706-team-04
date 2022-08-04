@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 .footer__end {
     background: url(../img/white-mountains.jpg) no-repeat bottom ;
     background-size: cover;
@@ -18,13 +18,17 @@
     
 }
 .img__footer1 {
-   margin-left: 46%;
+   margin-left: 41%;
    margin-top: 50px;
+   width: 70px;
+   height: 70px;
 }
 .text__footer1 {
     text-align: center;
     color: aliceblue;
     margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
 }
 .text__footer1__a {
     margin: 25%;
@@ -37,14 +41,26 @@
     height: 340px;
 }
 .img__footer2 {
-    margin-left: 46%;
+    margin-left: 41%;
     color: aliceblue;
     margin-top: 50px;
+    width: 70px;
+    height: 70px;
 }
 .text__footer2 {
     text-align: center;
     color: aliceblue;
     margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.text__footer2-2 {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+    color: #8f8f8f;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 .block__footer__phone {
     background: rgba(0, 0, 0, 0.7);
@@ -53,21 +69,25 @@
     margin-left: 20px;
 }
 .img__footer3 {
-    margin-left: 46%;
+    margin-left: 41%;
     color: aliceblue;
     margin-top: 50px;
+    width: 70px;
+    height: 70px;
 }
 .text__footer3 {
     text-align: center;
     color: aliceblue;
     margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
 }
 .text__footer3__a {
     margin: 30%;
     color: white;
 }
 .norway__footet__end {
-    
+
 }
 .norway_img_footer {
     width: 12%;
@@ -75,9 +95,9 @@
     margin-top: 1%;
 }
 .footer__a__end {
-    margin-left: 39%;
+    display: flex;
+    justify-content: center;
     margin-top: 2%;
-    ;
 }
 .footer__a__end1 {
     color: rgba(255, 255, 255, 0.4);
@@ -107,14 +127,15 @@
 
 .block__footer__inst {
     margin-top: 2%;
+    display: flex;
+    justify-content: center;
 }
 .block__footer__inst__text1 {
     color: aliceblue;
     display: inline-block;
-    margin-left: 180px;
 }
 .block__footer__inst_info1 {
-    margin-left: 450px;
+    margin-left: 25%;
     margin-right: 1%;
 }
 .block__footer__inst_info2 {
@@ -126,5 +147,96 @@
 .block__footer__inst__text2 {
     color: aliceblue;
     display: inline-block;
-    margin-left: 410px;
+    margin-left: 25%;
+}
+@media (max-width: 760px) {
+    .block__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .block__footer__mail {
+        width:  370px;
+        height: 310px;
+        margin: 30px auto;
+    }
+    .block__footer__visit {
+        width:  370px;
+        height: 310px;
+        margin: 30px auto;
+    }
+    .block__footer__phone {
+        width:  370px;
+        height: 310px;
+        margin: 30px auto;
+    }
+    .footer__a__end {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    .footer__a__end1 {
+      margin-left: 10px;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    .footer__a__end2 {
+        margin-left: 14px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .footer__a__end3 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .footer__a__end4 {
+        margin-left: 27px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .footer__a__end5 {
+        margin-left: 12px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .norway_img_footer {
+        width: 35%;
+        margin-left: 150px;
+        margin-bottom: 15px;
+    }
+    .block__footer__inst {
+    }
+    .block__footer__inst__text1 {
+        margin-left: 44px;
+        margin-right: 20px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .block__footer__inst_info1 {
+        margin-left: 30px;
+        margin-right: 5px; 
+
+    }
+    .block__footer__inst_info2 {
+        margin-left: 5px;
+        margin-right: 5px; 
+    }
+    .block__footer__inst_info3 {
+        margin-left: 5px;
+        margin-right: 5px; 
+    }
+    .block__footer__inst__text2 {
+        margin-left: 30px;
+        margin-right: 20px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+    }
 }
