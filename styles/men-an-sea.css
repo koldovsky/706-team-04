@@ -62,6 +62,7 @@ margin-top: 35px;
 background-color: rgb(255, 255, 255);
 margin-left: 180px;
 margin-right: 30px;
+margin-top: 20px;
 }
 .about__contact1-photo1 {
 width: 150px;
@@ -80,6 +81,7 @@ padding: 0 10px;
 
 .about__contact2-number {
     background-color: rgb(255, 255, 255);
+    margin-top: 20px;
 }
 .about__contact2-photo2 {
     width: 190px;
@@ -98,6 +100,7 @@ padding: 0 10px;
     background-color: rgb(255, 255, 255);;
     margin-right: 180px;
     margin-left: 30px;
+    margin-top: 20px;
    
 }
 .about__contact3-photo3 {
@@ -275,5 +278,18 @@ height: 230px;
             .about__description2 {   
                 margin-left: 20px;
                 margin-right: 20px;
+            }
+            .clock_sea{
+                width:350px;
+                height:350px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: url(../img/clock_sea.png), no-repeat bottom;
+                background-size: cover;
+                box-shadow: 0 -15px 15px rgba(134,134,134,0.35), inset 0 -15px -15px #191919,
+                0 15px 15px rgba(134,134,134,0.35), inset 0 15px -15px #191919;
+                border-radius: 50%;
+                margin: 500px auto;
             }
     }
