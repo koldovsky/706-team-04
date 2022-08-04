@@ -178,86 +178,7 @@
 
 
 
-/* #spots__slider-content {
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
-  
-  background-position: center center;
-  background-size: cover;
-  transition: 0.4s ease;
-  width: 100%;
- }
 
- #spots__slider-content::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index:  -1;
- }
-
- .spots__slider-container * {
-    box-sizing: border-box;
- }
- 
- .spots__slider-container {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    height: 70vh;
-    width: 70vw;
-    position: relative;
-    overflow: hidden;
-    display: block;
- }
-
- .spots__slide {
-    opacity: 0;
-    height: 100vh;
-    width: 100vw;
-    background-position: center center;
-    background-size: cover;
-    position: absolute;
-    top: -15vh;
-    left: -15vw;
-    transition: 0.4s ease;
-    z-index: 1;
- }
-
- .spots__slide.active {
-    opacity: 1;
- }
-
- .spots-arrow {
-    position: absolute;
-    background-color: transparent;
-    padding: 20px;
-    font-size: 30px;
-    border: 2px solid orange;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 100;
-    color: white;
-    
- }
-
- .spots-left-arrow {
-    left: calc(15vw - 65px);
-}
-
-.spots-right-arrow {
-    right: calc(15vw - 65px);
-}
-
-.spots-arrow:focus {
-    outline: 0;
-} */
 
 .spots__content {
     font-family: 'Roboto', sans-serif;
@@ -269,12 +190,12 @@
     width: 100%;
     overflow: hidden;
 
-    background-image: url(/img/carousel-slide-bridge.png) ;
+    background-image: url(/img/spots-northern-evening.jpg) ;
     background-position: center center;
     background-size: cover;
     transition: 0.4s ease;
 
-    filter: brightness(130%);
+    filter: brightness(170%);
 }
 
 img.spots__content {
@@ -326,22 +247,30 @@ img.spots__content {
 
 }
 
-/* .spots__buttons {
-    /* display: flex; */
-/* width: 100%; */
 
-/* } */
 #spots-left,
 #spots-right {
 
     background-color: transparent;
-    padding: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 245px;
+    padding-top: 230px;
     font-size: 30px;
-    border: 2px solid orange;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 100;
+    border: 1px solid var(--description-text-dark);
+    color: whitesmoke;
+}
 
+
+#spots-right:hover {
+    
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+#spots-left:hover {
+    
+    
+    background-color: rgba(255, 255, 255, 0.2);
 
 }
 
