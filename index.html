@@ -125,7 +125,7 @@
         </div>
         <div class="clock_sea">
           <div class="hour_sea">
-           <div class="hr" id="hr"></div>
+            <div class="hr" id="hr"></div>
           </div>
           <div class="min_sea">
             <div class="mn" id="mn"></div>
@@ -133,7 +133,7 @@
           <div class="sec_sea">
             <div class="sc" id="sc"></div>
           </div>
-       </div>
+        </div>
       </div>
     </section>
     <!--Vladimir Kulik Stop-->
@@ -653,79 +653,24 @@
     <!--FAQ Block | Kravchenko Yurii | End -->
 
     <!-- Початок коду Andrii Kurash (секція 9)-->
-    <section class="testimonials">
+    <section id="testimonials" class="testimonials">
       <div class="testimonials__container">
         <div class="testimonials__top">
-          <h2 class="testimonials__heading"><span class="heading__inner">━</span>TESTIMONIALS</h2>
+          <div class="clock"></div>
+          <h2 class="testimonials__heading"><span class="heading__inner">-</span>TESTIMONIALS</h2>
           <p class="testimonials__subtitle">Travelers Share Their Experience</p>
-          <p class="testimonials__info">Norway leaves no one indifferent. Its stunning nature, friendly people,
-            beautiful cities, and delicious cuisine will be remembered forever.
-          </p>
+          <p class="testimonials__info">Norway leaves no one indifferent. Its stunning nature, friendly
+            people,
+            beautiful cities, and delicious cuisine will be remembered forever.</p>
         </div>
-        <div class="testimonials__bottom">
-          <div id="testimonials__carousel" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#testimonials__carousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#testimonials__carousel" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#testimonials__carousel" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner" id="carousel-inner">
-              <div class="carousel-item active">
-                <div class="testimonials__bottom-inner">
-                  <img src="img/user__photo-1.jpg" alt="First User Photo" class="bottom-user-photo">
-                  <p class="bottom__user-name">Cole Tiers</p>
-                  <p class="bottom__user-text">I wanted to see Norway since childhood when I saw a
-                    stylish house right in the middle of the Norwegian forest in some magazine.
-                    I thought then
-                    that I also want to live in such a house. This dream came true a few months
-                    ago on a tour of
-                    Norway. I am very happy! Thanks, guys!</p>
-                  <p class="bottom__user-date">October 28, 2018</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="testimonials__bottom-inner">
-                  <img src="img/user__photo-2.png" alt="Second User Photo" class="bottom-user-photo">
-                  <p class="bottom__user-name">Lilland Forester</p>
-                  <p class="bottom__user-text">We went on this tour with our daughter, she was 5
-                    years old. I was worried that it would be difficult for her but everything
-                    went great. We
-                    spent nights in good hotels with excellent breakfasts. My daughter always
-                    had something to
-                    eat, and the nature in Norway fascinated her even more than us!</p>
-                  <p class="bottom__user-date">May 13, 2019</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="testimonials__bottom-inner">
-                  <img src="img/user__photo-3.jpg" alt="Third User Photo" class="bottom-user-photo">
-                  <p class="bottom__user-name">Alice Hendricks</p>
-                  <p class="bottom__user-text">I still can't believe I have seen the Northern
-                    Lights
-                    with my own eyes! That was incredible! When we arrived in Tromsø, it was
-                    constantly snowing,
-                    the weather was bad, and the guide said that we were out of luck, most
-                    likely. But on the
-                    last night, right at midnight, the clouds left, and I saw it! It was
-                    magical!</p>
-                  <p class="bottom__user-date">January 12, 2020</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonials__carousel"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonials__carousel"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+        <div class="testimonials__slider">
+          <button class="testimonials-slider__bth-prev">
+            <img src="img/testimonials__slider-left-arrow.png" width="30" height="30" alt="Left slider arrow">
+          </button>
+          <div class="testimonials-slider__slides"></div>
+          <button class="testimonials-slider__bth-next">
+            <img src="img/testimonials__slider-right-arrow.png" width="30" height="30" alt="Right slider arrow">
+          </button>
         </div>
       </div>
     </section>
@@ -752,50 +697,53 @@
   <footer class="footer">
     <div class="footer__end">
       <div class=" block__footer">
-       <div class="block__footer__mail">
-         <img class="img__footer1" src="img/mail@-footer.svg"  width="40" alt="mail footer">
-         <p class="text__footer1">Write Us</p>
-         <a class="text__footer1__a" href="mailto:norway-tour@email.com">norway-tour@email.com</a>
-       </div>
-       <div class="block__footer__visit">
-         <img class="img__footer2" src="img/visit__us__map.svg" width="40" alt="visit us map">
-         <p class="text__footer2">Visit Us</p>
-         <p class="text__footer2-2">Tollbugata 15C, 0152 Oslo</p>
-       </div>
-       <div class="block__footer__phone">
-         <img class="img__footer3" src="img/phone__call__footer.svg" width="40" alt="phone call footer">
-         <p class="text__footer3">Call Us</p>
-         <a class="text__footer3__a" href="tel:+12345678900">+1 (234) 567 89 00</a>
-       </div>
-     </div>
-     <div class="norway__footer__end">
-       <a href=""><img class="norway_img_footer" src="img/n_orwa_y.png" alt="norway-footer"></a>
-     </div>
-     <div class="footer__a__end"> 
-       <a class="footer__a__end1" href="#about">About us</a>
-       <a class="footer__a__end2" href="">Itinerary</a>
-       <a class="footer__a__end3" href="">Testimonials</a>
-       <a class="footer__a__end4" href="">Blog</a>
-       <a class="footer__a__end5" href="">Contacts</a>
-     </div>
-     <div class="block__footer__inst">
-       <p class="block__footer__inst__text1">
-         © Created by
-       </p>
-       <a class="block__footer__inst_info1" href="https://www.facebook.com/"><img src="img/footer__f.svg" alt=""></a>
-       <a class="block__footer__inst_info2" href="https://www.instagram.com/"><img src="img/footer__insta.svg" alt=""></a>
-       <a class="block__footer__inst_info3" href="https://www.youtube.com/"><img src="img/footer__youtube.svg" alt=""></a>
-       <p class="block__footer__inst__text2">
-         All rights Reserved
-       </p>
-     </div>
-   </div>
+        <div class="block__footer__mail">
+          <img class="img__footer1" src="img/mail@-footer.svg" width="40" alt="mail footer">
+          <p class="text__footer1">Write Us</p>
+          <a class="text__footer1__a" href="mailto:norway-tour@email.com">norway-tour@email.com</a>
+        </div>
+        <div class="block__footer__visit">
+          <img class="img__footer2" src="img/visit__us__map.svg" width="40" alt="visit us map">
+          <p class="text__footer2">Visit Us</p>
+          <p class="text__footer2-2">Tollbugata 15C, 0152 Oslo</p>
+        </div>
+        <div class="block__footer__phone">
+          <img class="img__footer3" src="img/phone__call__footer.svg" width="40" alt="phone call footer">
+          <p class="text__footer3">Call Us</p>
+          <a class="text__footer3__a" href="tel:+12345678900">+1 (234) 567 89 00</a>
+        </div>
+      </div>
+      <div class="norway__footer__end">
+        <a href=""><img class="norway_img_footer" src="img/n_orwa_y.png" alt="norway-footer"></a>
+      </div>
+      <div class="footer__a__end">
+        <a class="footer__a__end1" href="#about">About us</a>
+        <a class="footer__a__end2" href="">Itinerary</a>
+        <a class="footer__a__end3" href="">Testimonials</a>
+        <a class="footer__a__end4" href="">Blog</a>
+        <a class="footer__a__end5" href="">Contacts</a>
+      </div>
+      <div class="block__footer__inst">
+        <p class="block__footer__inst__text1">
+          © Created by
+        </p>
+        <a class="block__footer__inst_info1" href="https://www.facebook.com/"><img src="img/footer__f.svg" alt=""></a>
+        <a class="block__footer__inst_info2" href="https://www.instagram.com/"><img src="img/footer__insta.svg"
+            alt=""></a>
+        <a class="block__footer__inst_info3" href="https://www.youtube.com/"><img src="img/footer__youtube.svg"
+            alt=""></a>
+        <p class="block__footer__inst__text2">
+          All rights Reserved
+        </p>
+      </div>
+    </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
   <script src="js/header.js"></script>
   <script src="js/places.js"></script>
+  <script src="js/testimonials-slider.js"></script>
   <script src="js/blog.js"></script>
   <script src="js/stunning-spots-carousel.js"></script>
   <script src="js/men-and-sea.js"></script>
