@@ -291,6 +291,8 @@ h2#quiz-question {
 ul.quiz-variants {
     list-style-type: none;
     padding: 0;
+    margin-left: 30px;
+    margin-bottom: 50px;
 }
 
 ul.quiz-variants li {
@@ -302,7 +304,7 @@ ul.quiz-variants li {
     cursor: pointer;
 }
 
-#quiz__submit {
+#quiz-submit {
     background-color: var(--button-color);
     color: white;
     border: none;
@@ -314,11 +316,11 @@ ul.quiz-variants li {
     padding: 1.3rem;
 }
 
-#quiz__submit:hover {
+#quiz-submit:hover {
     background-color: var(--description-text-dark);
 }
 
-#quiz__submit:focus {
+#quiz-submit:focus {
     outline: none;
     background-color: var(--description-text-dark);
 }
@@ -349,4 +351,4 @@ ul.quiz-variants li {
     color: white;
     text-align: center;
     margin-bottom: 50px;
-}
+} 
