@@ -510,31 +510,21 @@
       </div>
       <div class="spots__content" id="spots__content">
         <button class="spots-arrow spots-left-arrow" id="spots-left">⇦</button>
-      <div class="spots__slider-container">
-        <div class="spots__slide  active" style="background-image: url(img/spots-northern-evening.jpg);">
-
+        <div class="spots__slider-container">
+          <div class="spots__slide  active" style="background-image: url(img/spots-northern-evening.jpg);">
+          </div>
+          <div class="spots__slide" style="background-image: url(img/spots-mountains-in-fog.jpg)">
+          </div>
+          <div class="spots__slide" style="background-image: url(img/spots-mountains-from-high.jpg);">
+          </div>
+          <div class="spots__slide" style="background-image: url(img/spots-northern-lights.jpg);">
+          </div>
+          <div class="spots__slide" style="background-image: url(img/spots-houses-on-coast.jpg);">
+          </div>
         </div>
-        <div class="spots__slide" style="background-image: url(img/spots-mountains-in-fog.jpg)">
+        <button class="spots-arrow spots-right-arrow" id="spots-right">⇨</button>
+      </div>
 
-        </div>
-        <div class="spots__slide" style="background-image: url(img/spots-mountains-from-high.jpg);">
-
-        </div>
-        <div class="spots__slide" style="background-image: url(img/spots-northern-lights.jpg);">
-
-        </div>
-        <div class="spots__slide" style="background-image: url(img/spots-houses-on-coast.jpg);">
-
-        </div>
-        
-      
-    </div>
-    <button class="spots-arrow spots-right-arrow" id="spots-right">⇨</button>
-        
-      
-    
-  </div>
-  
       <div class="main-quote">
         <div class="quote-elements">
           <div class="quote-divider-left">
@@ -558,8 +548,42 @@
           <hr>
         </div>
       </div>
-
-    </section>
+  </section>
+  <section class="quiz-container">
+    <p class="lets-check">
+      Let`s check you knowledge about Norway!
+    </p>
+    <div class="quiz-content" id="quiz">
+      <div class="quiz-header">
+        <h2 id="quiz-question">Question text</h2>
+        <ul class="quiz-variants">
+          <li>
+            <input type="radio" name="answer" id="quiz__a" class="quiz-answer">
+            <label for="quiz__a" id="a__text" class="quiz-label">Question</label>
+            <div class="quiz-check"></div>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="quiz__b" class="quiz-answer">
+            <label for="quiz__b" id="b__text" class="quiz-label">Question</label>
+            <div class="quiz-check"></div>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="quiz__c" class="quiz-answer">
+            <label for="quiz__c" id="c__text" class="quiz-label">Question</label>
+            <div class="quiz-check"></div>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="quiz__d" class="quiz-answer">
+            <label for="quiz__d" id="d__text" class="quiz-label">Question</label>
+            <div class="quiz-check"></div>
+          </li>
+        </ul>
+      </div>
+      <button id="quiz__submit">
+          Submit
+      </button>
+    </div>
+  </section>
     <!-- Кінець коду Куниці Ані -->
 
     <!--FAQ Block | Kravchenko Yurii | Start -->
@@ -740,6 +764,7 @@
   <script src="js/blog.js"></script>
   <script src="js/stunning-spots-carousel.js"></script>
   <script src="js/men-and-sea.js"></script>
+  <script src="js/quiz.js"></script>
 </body>
 
 </html>

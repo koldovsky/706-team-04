@@ -1,6 +1,5 @@
 .stunning-spots__line {
     color: rgb(238, 46, 20);
-
 }
 
 .stunning-spots__title {
@@ -49,7 +48,6 @@
 .quote-text {
     color: white;
     text-align: center;
-
 }
 
 .quote-author {
@@ -94,7 +92,6 @@
     .stunning-spots__title {
         font-size: 13px;
     }
-
 }
 
 
@@ -111,16 +108,12 @@
     padding-bottom: 30px;
     align-items: center;
     padding-top: 150px;
-
-
 }
 
 .quotes>img {
     width: 60px;
     margin: 20px;
 }
-
-
 
 .quote-text {
     font-family: Playfair Display;
@@ -173,12 +166,7 @@
     .quote-author {
         font-size: 17px;
     }
-
 }
-
-
-
-
 
 .spots__content {
     font-family: 'Roboto', sans-serif;
@@ -189,12 +177,10 @@
     height: 750px;
     width: 100%;
     overflow: hidden;
-
     background-image: url(/img/spots-northern-evening.jpg) ;
     background-position: center center;
     background-size: cover;
     transition: 0.4s ease;
-
     filter: brightness(170%);
 }
 
@@ -211,7 +197,6 @@ img.spots__content {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: -1;
-
 }
 
 
@@ -222,7 +207,6 @@ img.spots__content {
     position: relative;
     overflow: hidden;
     display: block;
-
 }
 
 .spots__slide {
@@ -235,22 +219,15 @@ img.spots__content {
     top: -15vh;
     left: -15vw;
     transition: 0.4s ease;
-
-
-
-
-
 }
 
 .spots__slide.active {
     opacity: 1;
-
 }
 
 
 #spots-left,
 #spots-right {
-
     background-color: transparent;
     padding-right: 20px;
     padding-left: 20px;
@@ -263,15 +240,11 @@ img.spots__content {
 
 
 #spots-right:hover {
-    
     background-color: rgba(255, 255, 255, 0.2);
 
 }
 #spots-left:hover {
-    
-    
     background-color: rgba(255, 255, 255, 0.2);
-
 }
 
 .spots-left-arrow {
@@ -284,4 +257,96 @@ img.spots__content {
 
 .spots-arrow:focus {
     outline: 0;
+}
+
+.quiz-container {
+    background-color: var(--background-dark-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    flex-direction: column;
+}
+
+.quiz-content {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2#quiz-question {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul.quiz-variants {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.quiz-variants li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.quiz-label {
+    cursor: pointer;
+}
+
+#quiz__submit {
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    padding: 1.3rem;
+}
+
+#quiz__submit:hover {
+    background-color: var(--description-text-dark);
+}
+
+#quiz__submit:focus {
+    outline: none;
+    background-color: var(--description-text-dark);
+}
+
+.reload {
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    padding: 1.3rem;
+}
+
+.reload:hover {
+    background-color: var(--description-text-dark);
+}
+
+.result-field {
+    padding: 1rem;
+    text-align: center;
+}
+
+.lets-check {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
 }
