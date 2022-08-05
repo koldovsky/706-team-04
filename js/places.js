@@ -16,6 +16,7 @@ const intervalID = setInterval(function() {
 }, 1000);
 })();
 
+(function () {
 const tabs = document.querySelector(".places__tabs");
 const tabButton = document.querySelectorAll(".tab-button");
 const contents = document.querySelectorAll(".places__tab-content");
@@ -35,3 +36,4 @@ tabs.onclick = e => {
     element.classList.add("active");
   }
 }
+})();

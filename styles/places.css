@@ -45,37 +45,32 @@
     color: var(--dash-color);
     margin-right: 5px;
 }
-/*
-.nav-link {
-    font-size: 17px;
-    letter-spacing: .03em;
-    font-family: Roboto, sans-serif;
-    color: var(--subtitle-dark-color);
-    font-weight: bold;
-}
 
-.nav-link:hover {
-    color: var(--description-text-dark);
-}
-*/
 .places__tab-button {
-    font-size: 17px;
-    letter-spacing: .03em;
-    font-family: Roboto, sans-serif;
-    color: var(--subtitle-dark-color);
-    font-weight: bold;
     overflow-y: hidden;
     overflow-x: auto;
     flex-wrap: nowrap;
     white-space: nowrap;
-}
-
-.places__tab-button:hover {
-    color: var(--description-text-dark);
+    border-bottom: 1px solid rgb(169, 169, 169, 0.5);
 }
 
 .tab-button {
-    margin: 0 20px;
+    margin: 0;
+    padding: 15px 25px;
+    font-size: 17px;
+    letter-spacing: .03em;
+    font-family: Roboto, sans-serif;
+    color: var(--subtitle-dark-color);
+    font-weight: bold;
+}
+
+.tab-button.active {
+    border-bottom: 2px solid var(--dash-color);
+    color: var(--description-text-dark);
+}
+
+.tab-button:hover {
+    color: var(--description-text-dark);
 }
 
 .places__tab-content {
