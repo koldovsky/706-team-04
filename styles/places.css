@@ -46,7 +46,17 @@
     margin-right: 5px;
 }
 
-.nav-link {
+.places__tab-button {
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    border-bottom: 1px solid rgb(169, 169, 169, 0.5);
+}
+
+.tab-button {
+    margin: 0;
+    padding: 15px 25px;
     font-size: 17px;
     letter-spacing: .03em;
     font-family: Roboto, sans-serif;
@@ -54,9 +64,23 @@
     font-weight: bold;
 }
 
-.nav-link:hover {
+.tab-button.active {
+    border-bottom: 2px solid var(--dash-color);
     color: var(--description-text-dark);
 }
+
+.tab-button:hover {
+    color: var(--description-text-dark);
+}
+
+.places__tab-content {
+    display: none;
+    padding: 10px 20px;
+  }
+  
+  .places__tab-content.active {
+    display: block;
+  }
 
 .places__content-city {
     display: flex;
