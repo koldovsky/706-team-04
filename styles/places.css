@@ -233,6 +233,89 @@
     transform: rotateX(-90deg);
 }
 
+.weather__card {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 25px auto;
+    max-height: max-content;
+    min-height: 400px;
+    background: var(--background-dark-color);
+    border-radius: 26px;
+}
+
+.weather__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 25px;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    border-radius: 25px;
+    color: #fff;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+    position: relative;
+}
+
+.weather__date, .weather__time, .weather__description {
+    font-size: 22px;
+    line-height: 1.7;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.weather__description::first-letter {
+    text-transform: uppercase;
+}
+
+.weather__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    color: var(--title-light-color);
+}
+
+.weather__right-top {
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+  }
+
+.search__button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 38px;
+    width: 38px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+.search__button:hover {
+    background: #7c7c7c6b;
+}
+
 .places__countdown {
     display: flex;
     flex-direction: column;
@@ -320,6 +403,11 @@
 
     .apartments__type {
         width: 50%;
+    }
+
+    .weather__card {
+        display: grid;
+        grid-template-columns: 55% 45%;
     }
 
     .places__countdown {
