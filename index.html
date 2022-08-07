@@ -125,7 +125,7 @@
         </div>
         <div class="clock_sea">
           <div class="hour_sea">
-           <div class="hr" id="hr"></div>
+            <div class="hr" id="hr"></div>
           </div>
           <div class="min_sea">
             <div class="mn" id="mn"></div>
@@ -133,7 +133,7 @@
           <div class="sec_sea">
             <div class="sc" id="sc"></div>
           </div>
-       </div>
+        </div>
       </div>
     </section>
     <!--Vladimir Kulik Stop-->
@@ -281,209 +281,202 @@
           Read more about each place from our itinerary below.
         </p>
       </div>
-      <nav class="places__nav">
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button class="nav-link active" id="nav-oslo-tab" data-bs-toggle="tab" data-bs-target="#nav-oslo"
-            type="button" role="tab" aria-controls="nav-oslo" aria-selected="true">Oslo</button>
-          <button class="nav-link" id="nav-trondheim-tab" data-bs-toggle="tab" data-bs-target="#nav-trondheim"
-            type="button" role="tab" aria-controls="nav-trondheim" aria-selected="false">Trondheim</button>
-          <button class="nav-link" id="nav-bodo-tab" data-bs-toggle="tab" data-bs-target="#nav-bodo" type="button"
-            role="tab" aria-controls="nav-bodo" aria-selected="false">Bodø</button>
-          <button class="nav-link" id="nav-lofoten-tab" data-bs-toggle="tab" data-bs-target="#nav-lofoten" type="button"
-            role="tab" aria-controls="nav-lofoten" aria-selected="false">Lofoten Islands</button>
-          <button class="nav-link" id="nav-tromso-tab" data-bs-toggle="tab" data-bs-target="#nav-tromso" type="button"
-            role="tab" aria-controls="nav-tromso" aria-selected="false">Tromsø</button>
+      <div class="places__tabs">
+        <div class="places__tab-button">
+          <button class="tab-button active" data-id="Oslo">Oslo</button>
+          <button class="tab-button" data-id="Trondheim">Trondheim</button>
+          <button class="tab-button" data-id="Bodo">Bodø</button>
+          <button class="tab-button" data-id="Lofoten">Lofoten Islands</button>
+          <button class="tab-button" data-id="Tromso">Tromsø</button>
         </div>
-      </nav>
-      <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-oslo" role="tabpanel" aria-labelledby="nav-oslo-tab">
-          <!-- Block first point -->
-          <div class="places__content-city">
-            <div class="city__image">
-              <img src="img/city-oslo.jpg" alt="the city of Oslo" />
-            </div>
-            <div class="city__text">
-              <p class="city__title">Oslo - First point</p>
-              <p class="city__subtitle">The Capital and Largest City of Norway</p>
-              <div class="city__apartments">
-                <p class="apartments__night">1 night</p>
-                <p class="apartments__type">Scandic Hotel</p>
+          <div class="places__tab-content active" id="Oslo">
+            <!-- Block first point -->
+            <div class="places__content-city">
+              <div class="city__image">
+                <img src="img/city-oslo.jpg" alt="the city of Oslo" />
               </div>
-              <p class="city__description">
-                We start our journey from Oslo, the capital of Norway. On a
-                walking tour, you will see the opera house, parliament, the
-                royal palace, and more.
-              </p>
-              <div class="city__features-and-icon">
-                <div class="city__features">
-                  <img src="img/city__features-dinner.svg" alt="Dinner included" width="24" />
-                  <p class="features__first">- Dinner included</p>
+              <div class="city__text">
+                <p class="city__title">Oslo - First point</p>
+                <p class="city__subtitle">The Capital and Largest City of Norway</p>
+                <div class="city__apartments">
+                  <p class="apartments__night">1 night</p>
+                  <p class="apartments__type">Scandic Hotel</p>
                 </div>
-                <div class="city__features">
-                  <img src="img/city__features-backpack-hotel.svg" alt="Leave your backpack in the hotel" width="24" />
-                  <p class="features__second">
-                    - Leave your backpack in the hotel
-                  </p>
+                <p class="city__description">
+                  We start our journey from Oslo, the capital of Norway. On a
+                  walking tour, you will see the opera house, parliament, the
+                  royal palace, and more.
+                </p>
+                <div class="city__features-and-icon">
+                  <div class="city__features">
+                    <img src="img/city__features-dinner.svg" alt="Dinner included" width="24" />
+                    <p class="features__first">- Dinner included</p>
+                  </div>
+                  <div class="city__features">
+                    <img src="img/city__features-backpack-hotel.svg" alt="Leave your backpack in the hotel" width="24" />
+                    <p class="features__second">
+                      - Leave your backpack in the hotel
+                    </p>
+                  </div>
+                  <div class="city__features">
+                    <img src="img/city__features-transfer.svg" alt="Transfer from the airport" width="24" />
+                    <p class="features__third">- Transfer from the airport</p>
+                  </div>
                 </div>
-                <div class="city__features">
-                  <img src="img/city__features-transfer.svg" alt="Transfer from the airport" width="24" />
-                  <p class="features__third">- Transfer from the airport</p>
-                </div>
+                <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
               </div>
-              <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
             </div>
+            <!-- End block first point-->
           </div>
-          <!-- End block first point-->
-        </div>
-        <div class="tab-pane fade" id="nav-trondheim" role="tabpanel" aria-labelledby="nav-trondheim-tab">
-          <!-- Block second point -->
-          <div class="places__content-city">
-            <div class="city__image">
-              <img src="img/city-trondheim.jpg" alt="the city of Trondheim" />
-            </div>
-            <div class="city__text">
-              <p class="city__title">Trondheim - Second point</p>
-              <p class="city__subtitle">The First Capital With the Royal Residence</p>
-              <div class="city__apartments">
-                <p class="apartments__night">2 night</p>
-                <p class="apartments__type">Radisson Hotel</p>
+          <div class="places__tab-content" id="Trondheim">
+            <!-- Block second point -->
+            <div class="places__content-city">
+              <div class="city__image">
+                <img src="img/city-trondheim.jpg" alt="the city of Trondheim" />
               </div>
-              <p class="city__description">The main Christian landmark of Norway, the Nidaros Cathedral is located here.
-                The architectural sign of the new era is a high TV tower with a revolving restaurant.</p>
-              <div class="city__features-and-icon">
-                <div class="city__features">
-                  <img src="img/city__features-arriving.svg" alt="Arriving at 9 a.m." width="24" />
-                  <p class="features__first">- Arriving at 9 a.m.</p>
+              <div class="city__text">
+                <p class="city__title">Trondheim - Second point</p>
+                <p class="city__subtitle">The First Capital With the Royal Residence</p>
+                <div class="city__apartments">
+                  <p class="apartments__night">2 night</p>
+                  <p class="apartments__type">Radisson Hotel</p>
                 </div>
-                <div class="city__features">
-                  <img src="img/city__features-instafriendly.svg" alt="Instagram-friendly places" width="24" />
-                  <p class="features__second">- Instagram-friendly places</p>
+                <p class="city__description">The main Christian landmark of Norway, the Nidaros Cathedral is located here.
+                  The architectural sign of the new era is a high TV tower with a revolving restaurant.</p>
+                <div class="city__features-and-icon">
+                  <div class="city__features">
+                    <img src="img/city__features-arriving.svg" alt="Arriving at 9 a.m." width="24" />
+                    <p class="features__first">- Arriving at 9 a.m.</p>
+                  </div>
+                  <div class="city__features">
+                    <img src="img/city__features-instafriendly.svg" alt="Instagram-friendly places" width="24" />
+                    <p class="features__second">- Instagram-friendly places</p>
+                  </div>
+                  <div class="city__features">
+                    <img src="img/city__features-walking.svg" alt="3-hours walking tour" width="24" />
+                    <p class="features__third">- 3-hours walking tour</p>
+                  </div>
                 </div>
-                <div class="city__features">
-                  <img src="img/city__features-walking.svg" alt="3-hours walking tour" width="24" />
-                  <p class="features__third">- 3-hours walking tour</p>
-                </div>
+                <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
               </div>
-              <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
             </div>
+            <!-- End block second point-->
           </div>
-          <!-- End block second point-->
-        </div>
-        <div class="tab-pane fade" id="nav-bodo" role="tabpanel" aria-labelledby="nav-bodo-tab">
-          <!-- Block third point -->
-          <div class="places__content-city">
-            <div class="city__image">
-              <img src="img/city-bodo.jpg" alt="the city of Bodø" />
-            </div>
-            <div class="city__text">
-              <p class="city__title">Bodø - Third point</p>
-              <p class="city__subtitle">
-                Unique Fishing Spot in Fascinating Scenery
-              </p>
-              <div class="city__apartments">
-                <p class="apartments__night">2 night</p>
-                <p class="apartments__type">Gronheim Guesthouse</p>
+          <div class="places__tab-content" id="Bodo">
+            <!-- Block third point -->
+            <div class="places__content-city">
+              <div class="city__image">
+                <img src="img/city-bodo.jpg" alt="the city of Bodø" />
               </div>
-              <p class="city__description">
-                We've left "urban" Norway, and Bodø is our first stop for no
-                sightseeing. We will simply go fishing, enjoy the fresh air, and
-                try dishes with salmon and trout.
-              </p>
-              <div class="city__features-and-icon">
-                <div class="city__features">
-                  <img src="img/city__features-fishing.svg" alt="Fishing spots" width="24" />
-                  <p class="features__first">- Fishing spots</p>
+              <div class="city__text">
+                <p class="city__title">Bodø - Third point</p>
+                <p class="city__subtitle">
+                  Unique Fishing Spot in Fascinating Scenery
+                </p>
+                <div class="city__apartments">
+                  <p class="apartments__night">2 night</p>
+                  <p class="apartments__type">Gronheim Guesthouse</p>
                 </div>
-                <div class="city__features">
-                  <img src="img/city__features-dinner.svg" alt="Fish dinner" width="24" />
-                  <p class="features__second">- Fish dinner</p>
+                <p class="city__description">
+                  We've left "urban" Norway, and Bodø is our first stop for no
+                  sightseeing. We will simply go fishing, enjoy the fresh air, and
+                  try dishes with salmon and trout.
+                </p>
+                <div class="city__features-and-icon">
+                  <div class="city__features">
+                    <img src="img/city__features-fishing.svg" alt="Fishing spots" width="24" />
+                    <p class="features__first">- Fishing spots</p>
+                  </div>
+                  <div class="city__features">
+                    <img src="img/city__features-dinner.svg" alt="Fish dinner" width="24" />
+                    <p class="features__second">- Fish dinner</p>
+                  </div>
+                  <div class="city__features">
+                    <img src="img/city__features-cable-car.svg" alt="Cable car ride" width="24" />
+                    <p class="features__third">- Cable car ride</p>
+                  </div>
                 </div>
-                <div class="city__features">
-                  <img src="img/city__features-cable-car.svg" alt="Cable car ride" width="24" />
-                  <p class="features__third">- Cable car ride</p>
-                </div>
+                <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
               </div>
-              <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
             </div>
+            <!-- End block third point-->
           </div>
-          <!-- End block third point-->
-        </div>
-        <div class="tab-pane fade" id="nav-lofoten" role="tabpanel" aria-labelledby="nav-lofoten-tab">
-          <!-- Block fourth point -->
-          <div class="places__content-city">
-            <div class="city__image">
-              <img src="img/city-lofoten.jpg" alt="the Lofoten Islands" />
-            </div>
-            <div class="city__text">
-              <p class="city__title">Lofoten Islands - Fourth point</p>
-              <p class="city__subtitle">
-                Stunning Place Beyond the Arctic circle
-              </p>
-              <div class="city__apartments">
-                <p class="apartments__night">2 night</p>
-                <p class="apartments__type">Cabinn Hotel</p>
+          <div class="places__tab-content" id="Lofoten">
+            <!-- Block fourth point -->
+            <div class="places__content-city">
+              <div class="city__image">
+                <img src="img/city-lofoten.jpg" alt="the Lofoten Islands" />
               </div>
-              <p class="city__description">
-                The islands are located in the harsh waters of the Norwegian
-                Sea. It is a land of wild nature, majestic mountains, fjords,
-                and long sandy beaches.
-              </p>
-              <div class="city__features-and-icon">
-                <div class="city__features">
-                  <img src="img/city__features-beaches.svg" alt="Unique beaches" width="24" />
-                  <p class="features__first">- Unique beaches</p>
+              <div class="city__text">
+                <p class="city__title">Lofoten Islands - Fourth point</p>
+                <p class="city__subtitle">
+                  Stunning Place Beyond the Arctic circle
+                </p>
+                <div class="city__apartments">
+                  <p class="apartments__night">2 night</p>
+                  <p class="apartments__type">Cabinn Hotel</p>
                 </div>
-                <div class="city__features">
-                  <img src="img/city__features-liqueur.svg" alt="Tasting of local liqueurs" width="24" />
-                  <p class="features__second">- Tasting of local liqueurs</p>
+                <p class="city__description">
+                  The islands are located in the harsh waters of the Norwegian
+                  Sea. It is a land of wild nature, majestic mountains, fjords,
+                  and long sandy beaches.
+                </p>
+                <div class="city__features-and-icon">
+                  <div class="city__features">
+                    <img src="img/city__features-beaches.svg" alt="Unique beaches" width="24" />
+                    <p class="features__first">- Unique beaches</p>
+                  </div>
+                  <div class="city__features">
+                    <img src="img/city__features-liqueur.svg" alt="Tasting of local liqueurs" width="24" />
+                    <p class="features__second">- Tasting of local liqueurs</p>
+                  </div>
+                  <div class="city__features">
+                    <img src="img/city__features-boat.svg" alt="Boat trip" width="24" />
+                    <p class="features__third">- Boat trip</p>
+                  </div>
                 </div>
-                <div class="city__features">
-                  <img src="img/city__features-boat.svg" alt="Boat trip" width="24" />
-                  <p class="features__third">- Boat trip</p>
-                </div>
+                <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
               </div>
-              <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
             </div>
+            <!-- End block fourth point-->
           </div>
-          <!-- End block fourth point-->
-        </div>
-        <div class="tab-pane fade" id="nav-tromso" role="tabpanel" aria-labelledby="nav-tromso-tab">
-          <!-- Block final point -->
-          <div class="places__content-city">
-            <div class="city__image">
-              <img src="img/city-tromso.jpg" alt="the city of Tromsø" />
-            </div>
-            <div class="city__text">
-              <p class="city__title">Tromsø - Final point</p>
-              <p class="city__subtitle">Spot for Hunting the Northern Lights</p>
-              <div class="city__apartments">
-                <p class="apartments__night">3 night</p>
-                <p class="apartments__type">Scandic Hotel</p>
+          <div class="places__tab-content" id="Tromso">
+            <!-- Block final point -->
+            <div class="places__content-city">
+              <div class="city__image">
+                <img src="img/city-tromso.jpg" alt="the city of Tromsø" />
               </div>
-              <p class="city__description">
-                The largest Norwegian city in the Arctic Circle is also called
-                “Paris of the North”. The main attractions are the Polar Museum
-                and the Arctic Cathedral.
-              </p>
-              <div class="city__features-and-icon">
-                <div class="city__features">
-                  <img src="img/city__features-souvenirs.svg" alt="Free souvenirs" width="24" />
-                  <p class="features__first">- Free souvenirs</p>
+              <div class="city__text">
+                <p class="city__title">Tromsø - Final point</p>
+                <p class="city__subtitle">Spot for Hunting the Northern Lights</p>
+                <div class="city__apartments">
+                  <p class="apartments__night">3 night</p>
+                  <p class="apartments__type">Scandic Hotel</p>
                 </div>
-                <div class="city__features">
-                  <img src="img/city__features-transfer.svg" alt="International airport" width="24" />
-                  <p class="features__second">- International airport</p>
+                <p class="city__description">
+                  The largest Norwegian city in the Arctic Circle is also called
+                  “Paris of the North”. The main attractions are the Polar Museum
+                  and the Arctic Cathedral.
+                </p>
+                <div class="city__features-and-icon">
+                  <div class="city__features">
+                    <img src="img/city__features-souvenirs.svg" alt="Free souvenirs" width="24" />
+                    <p class="features__first">- Free souvenirs</p>
+                  </div>
+                  <div class="city__features">
+                    <img src="img/city__features-transfer.svg" alt="International airport" width="24" />
+                    <p class="features__second">- International airport</p>
+                  </div>
+                  <div class="city__features">
+                    <img src="img/city__features-lights.svg" alt="Northern Lights" width="24" />
+                    <p class="features__third">- Northern Lights</p>
+                  </div>
                 </div>
-                <div class="city__features">
-                  <img src="img/city__features-lights.svg" alt="Northern Lights" width="24" />
-                  <p class="features__third">- Northern Lights</p>
-                </div>
+                <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
               </div>
-              <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
             </div>
+            <!-- End block final point-->
           </div>
-          <!-- End block final point-->
-        </div>
       </div>
       <div class="places__countdown">
         <p>The number of seats is limited, make a <a href="#">reservation!</a></p>
@@ -492,7 +485,7 @@
       </div>
     </section>
     <!--Кінець коду Andrii Kupinskyi (блок 5) -->
-    <!-- Початок коду Куниця Ані -->
+    <!-- Початок коду Куниці Ані -->
     <section class="main__carousel-images">
       <div class="spots-carousel-text">
         <h3 class="stunning-spots__title">
@@ -508,40 +501,23 @@
           own eyes.
         </p>
       </div>
-      <div class="spots__carousel-container">
-        <div class="spots__carousel-slides">
-          <div class="spots__carousel-slide">
-            <img class="spots__carousel-img" src="img/carousel-slide-houses-green.jpg" alt="Red houses on the lake">
+      <div class="spots__content" id="spots__content">
+        <button class="spots-arrow spots-left-arrow" id="spots-left">⇦</button>
+        <div class="spots__slider-container">
+          <div class="spots__slide  active" style="background-image: url(img/spots-northern-evening.jpg);">
           </div>
-          <div class="spots__carousel-slide active">
-            <img class="spots__carousel-img" src="img/carousel-slide-bridge.png"
-              alt="People looking at the mountains while standing on the bridge">
+          <div class="spots__slide" style="background-image: url(img/spots-mountains-in-fog.jpg)">
           </div>
-          <div class="spots__carousel-slide">
-            <img class="spots__carousel-img" src="img/carousel-slide-dark-houses.jpg"
-              alt="Houses on the background of the forest">
+          <div class="spots__slide" style="background-image: url(img/spots-mountains-from-high.jpg);">
           </div>
-          <div class="spots__carousel-slide">
-            <img class="spots__carousel-img" src="img/carousel-slide-ice.jpg"
-              alt="Glacier on the background of mountains">
+          <div class="spots__slide" style="background-image: url(img/spots-northern-lights.jpg);">
           </div>
-          <div class="spots__carousel-slide">
-            <img class="spots__carousel-img" src="img/carousel-slide-red-boat.jpg"
-              alt="Red boat on the background of mountains">
+          <div class="spots__slide" style="background-image: url(img/spots-houses-on-coast.jpg);">
           </div>
-          <div id="spots-carousel__button-prev"></div>
-          <div id="spots-carousel__button-next"></div>
         </div>
-
-        <div class="spots-carousel__dots">
-          <span class="spots-carousel__dot active"></span>
-          <span class="spots-carousel__dot"></span>
-          <span class="spots-carousel__dot"></span>
-          <span class="spots-carousel__dot"></span>
-          <span class="spots-carousel__dot"></span>
-        </div>
-
+        <button class="spots-arrow spots-right-arrow" id="spots-right">⇨</button>
       </div>
+
       <div class="main-quote">
         <div class="quote-elements">
           <div class="quote-divider-left">
@@ -565,8 +541,36 @@
           <hr>
         </div>
       </div>
-
-    </section>
+  </section>
+  <section class="quiz-container">
+    <p class="lets-check">
+      Let`s check you knowledge about Norway!
+    </p>
+    <div class="quiz-content" id="quiz">
+      <div class="quiz_header">
+          <h2 id="quiz-question">Question text</h2>
+          <ul class="quiz-variants">
+              <li>
+                  <input type="radio" name ="answer" id="a_quiz" class="quiz-answer">
+                  <label for="a_quiz" id="a_text" class="quiz-label">Question</label>
+              </li>
+              <li>
+                  <input type="radio" name ="answer" id="b_quiz" class="quiz-answer">
+                  <label for="b_quiz" id="b_text" class="quiz-label">Question</label>
+              </li>
+              <li>
+                  <input type="radio" name ="answer" id="c_quiz" class="quiz-answer">
+                  <label for="c_quiz" id="c_text" class="quiz-label">Question</label>
+              </li>
+              <li>
+                  <input type="radio" name ="answer" id="d_quiz" class="quiz-answer">
+                  <label for="d_quiz" id="d_text" class="quiz-label">Question</label>
+              </li>
+          </ul>
+      </div>
+      <button class = "quiz-button" id="quiz-submit">Submit</button>
+  </div>
+  </section>
     <!-- Кінець коду Куниці Ані -->
 
     <!--FAQ Block | Kravchenko Yurii | Start -->
@@ -653,79 +657,24 @@
     <!--FAQ Block | Kravchenko Yurii | End -->
 
     <!-- Початок коду Andrii Kurash (секція 9)-->
-    <section class="testimonials">
+    <section id="testimonials" class="testimonials">
       <div class="testimonials__container">
         <div class="testimonials__top">
-          <h2 class="testimonials__heading"><span class="heading__inner">━</span>TESTIMONIALS</h2>
+          <div class="clock"></div>
+          <h2 class="testimonials__heading"><span class="heading__inner">-</span>TESTIMONIALS</h2>
           <p class="testimonials__subtitle">Travelers Share Their Experience</p>
-          <p class="testimonials__info">Norway leaves no one indifferent. Its stunning nature, friendly people,
-            beautiful cities, and delicious cuisine will be remembered forever.
-          </p>
+          <p class="testimonials__info">Norway leaves no one indifferent. Its stunning nature, friendly
+            people,
+            beautiful cities, and delicious cuisine will be remembered forever.</p>
         </div>
-        <div class="testimonials__bottom">
-          <div id="testimonials__carousel" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#testimonials__carousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#testimonials__carousel" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#testimonials__carousel" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner" id="carousel-inner">
-              <div class="carousel-item active">
-                <div class="testimonials__bottom-inner">
-                  <img src="img/user__photo-1.jpg" alt="First User Photo" class="bottom-user-photo">
-                  <p class="bottom__user-name">Cole Tiers</p>
-                  <p class="bottom__user-text">I wanted to see Norway since childhood when I saw a
-                    stylish house right in the middle of the Norwegian forest in some magazine.
-                    I thought then
-                    that I also want to live in such a house. This dream came true a few months
-                    ago on a tour of
-                    Norway. I am very happy! Thanks, guys!</p>
-                  <p class="bottom__user-date">October 28, 2018</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="testimonials__bottom-inner">
-                  <img src="img/user__photo-2.png" alt="Second User Photo" class="bottom-user-photo">
-                  <p class="bottom__user-name">Lilland Forester</p>
-                  <p class="bottom__user-text">We went on this tour with our daughter, she was 5
-                    years old. I was worried that it would be difficult for her but everything
-                    went great. We
-                    spent nights in good hotels with excellent breakfasts. My daughter always
-                    had something to
-                    eat, and the nature in Norway fascinated her even more than us!</p>
-                  <p class="bottom__user-date">May 13, 2019</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="testimonials__bottom-inner">
-                  <img src="img/user__photo-3.jpg" alt="Third User Photo" class="bottom-user-photo">
-                  <p class="bottom__user-name">Alice Hendricks</p>
-                  <p class="bottom__user-text">I still can't believe I have seen the Northern
-                    Lights
-                    with my own eyes! That was incredible! When we arrived in Tromsø, it was
-                    constantly snowing,
-                    the weather was bad, and the guide said that we were out of luck, most
-                    likely. But on the
-                    last night, right at midnight, the clouds left, and I saw it! It was
-                    magical!</p>
-                  <p class="bottom__user-date">January 12, 2020</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonials__carousel"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonials__carousel"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+        <div class="testimonials__slider">
+          <button class="testimonials-slider__bth-prev">
+            <img src="img/testimonials__slider-left-arrow.png" width="30" height="30" alt="Left slider arrow">
+          </button>
+          <div class="testimonials-slider__slides"></div>
+          <button class="testimonials-slider__bth-next">
+            <img src="img/testimonials__slider-right-arrow.png" width="30" height="30" alt="Right slider arrow">
+          </button>
         </div>
       </div>
     </section>
@@ -752,52 +701,56 @@
   <footer class="footer">
     <div class="footer__end">
       <div class=" block__footer">
-       <div class="block__footer__mail">
-         <img class="img__footer1" src="img/mail@-footer.svg"  width="40" alt="mail footer">
-         <p class="text__footer1">Write Us</p>
-         <a class="text__footer1__a" href="mailto:norway-tour@email.com">norway-tour@email.com</a>
-       </div>
-       <div class="block__footer__visit">
-         <img class="img__footer2" src="img/visit__us__map.svg" width="40" alt="visit us map">
-         <p class="text__footer2">Visit Us</p>
-         <p class="text__footer2-2">Tollbugata 15C, 0152 Oslo</p>
-       </div>
-       <div class="block__footer__phone">
-         <img class="img__footer3" src="img/phone__call__footer.svg" width="40" alt="phone call footer">
-         <p class="text__footer3">Call Us</p>
-         <a class="text__footer3__a" href="tel:+12345678900">+1 (234) 567 89 00</a>
-       </div>
-     </div>
-     <div class="norway__footer__end">
-       <a href=""><img class="norway_img_footer" src="img/n_orwa_y.png" alt="norway-footer"></a>
-     </div>
-     <div class="footer__a__end"> 
-       <a class="footer__a__end1" href="#about">About us</a>
-       <a class="footer__a__end2" href="">Itinerary</a>
-       <a class="footer__a__end3" href="">Testimonials</a>
-       <a class="footer__a__end4" href="">Blog</a>
-       <a class="footer__a__end5" href="">Contacts</a>
-     </div>
-     <div class="block__footer__inst">
-       <p class="block__footer__inst__text1">
-         © Created by
-       </p>
-       <a class="block__footer__inst_info1" href="https://www.facebook.com/"><img src="img/footer__f.svg" alt=""></a>
-       <a class="block__footer__inst_info2" href="https://www.instagram.com/"><img src="img/footer__insta.svg" alt=""></a>
-       <a class="block__footer__inst_info3" href="https://www.youtube.com/"><img src="img/footer__youtube.svg" alt=""></a>
-       <p class="block__footer__inst__text2">
-         All rights Reserved
-       </p>
-     </div>
-   </div>
+        <div class="block__footer__mail">
+          <img class="img__footer1" src="img/mail@-footer.svg" width="40" alt="mail footer">
+          <p class="text__footer1">Write Us</p>
+          <a class="text__footer1__a" href="mailto:norway-tour@email.com">norway-tour@email.com</a>
+        </div>
+        <div class="block__footer__visit">
+          <img class="img__footer2" src="img/visit__us__map.svg" width="40" alt="visit us map">
+          <p class="text__footer2">Visit Us</p>
+          <p class="text__footer2-2">Tollbugata 15C, 0152 Oslo</p>
+        </div>
+        <div class="block__footer__phone">
+          <img class="img__footer3" src="img/phone__call__footer.svg" width="40" alt="phone call footer">
+          <p class="text__footer3">Call Us</p>
+          <a class="text__footer3__a" href="tel:+12345678900">+1 (234) 567 89 00</a>
+        </div>
+      </div>
+      <div class="norway__footer__end">
+        <a href=""><img class="norway_img_footer" src="img/n_orwa_y.png" alt="norway-footer"></a>
+      </div>
+      <div class="footer__a__end">
+        <a class="footer__a__end1" href="#about">About us</a>
+        <a class="footer__a__end2" href="">Itinerary</a>
+        <a class="footer__a__end3" href="">Testimonials</a>
+        <a class="footer__a__end4" href="">Blog</a>
+        <a class="footer__a__end5" href="">Contacts</a>
+      </div>
+      <div class="block__footer__inst">
+        <p class="block__footer__inst__text1">
+          © Created by
+        </p>
+        <a class="block__footer__inst_info1" href="https://www.facebook.com/"><img src="img/footer__f.svg" alt=""></a>
+        <a class="block__footer__inst_info2" href="https://www.instagram.com/"><img src="img/footer__insta.svg"
+            alt=""></a>
+        <a class="block__footer__inst_info3" href="https://www.youtube.com/"><img src="img/footer__youtube.svg"
+            alt=""></a>
+        <p class="block__footer__inst__text2">
+          All rights Reserved
+        </p>
+      </div>
+    </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
   <script src="js/header.js"></script>
   <script src="js/places.js"></script>
+  <script src="js/testimonials-slider.js"></script>
   <script src="js/blog.js"></script>
   <script src="js/stunning-spots-carousel.js"></script>
+  <script src="js/quiz.js"></script>
   <script src="js/men-and-sea.js"></script>
 </body>
 
