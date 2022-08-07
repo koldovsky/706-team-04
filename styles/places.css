@@ -240,7 +240,7 @@
     justify-content: space-around;
     margin: 25px auto;
     max-height: max-content;
-    min-height: 400px;
+    min-height: 398px;
     background: var(--background-dark-color);
     border-radius: 26px;
 }
@@ -252,6 +252,7 @@
     padding: 10px;
     padding-left: 25px;
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-size: contain;
     border-radius: 25px;
     color: #fff;
     text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
@@ -407,7 +408,7 @@
 
     .weather__card {
         display: grid;
-        grid-template-columns: 55% 45%;
+        grid-template-columns: 54% 46%;
     }
 
     .places__countdown {
