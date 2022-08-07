@@ -127,7 +127,7 @@
 
 .block__footer__inst {
     margin-top: 2%;
-    display: flex;
+    margin-left: 19%;
     justify-content: center;
 }
 .block__footer__inst__text1 {
@@ -207,6 +207,7 @@
         margin-bottom: 15px;
     }
     .block__footer__inst {
+        margin: 5px 33%;
     }
     .block__footer__inst__text1 {
         margin-left: 44px;
