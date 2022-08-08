@@ -19,39 +19,58 @@
 
 }
 
+.contact__us-form{
+  background: url(..//img/contact__form-img-bg.png) 70% 20%;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size: 140%;
+  display: flex;
+
+}
+
 .contact__form-container{
-    height: 800px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 900px;
 }
 
 .container__form {
   display: flex;
   align-items: center;
-  max-width:400px;
+  text-align: center;
+  height: 550px;
+  max-width:500px;
   width:100%;
   margin:0 auto;
   position:relative;
   background-color: var(--background-dark-color);
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { 
+  font:600 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
-  background:#F9F9F9;
+  background-color: var(--background-dark-color);
   padding:25px;
-  margin:50px 0;
+  margin:30px 0;
 }
 
 #contact h3 {
-  color: var(--main__text-color);
+  font-family: 'Playfair Display', serif;
+  color: var(--title-light-color);
   display: block;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 400;
+  margin-bottom: 5%;
 }
 
 #contact h4 {
+  color: var(--faq__subtitle_text-color);
   margin:5px 0 15px;
   display:block;
   font-size:13px;
+  margin-bottom: 10%;
 }
 
 fieldset {
@@ -119,3 +138,22 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+
+@media (min-width: 1200px) { 
+  .contact__form-container {
+    margin-right: 960px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact__us-form{
+    background-size: 200%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact__us-form{
+    background-size: 240%;
+  }
+}
+
