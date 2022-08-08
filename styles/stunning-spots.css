@@ -269,7 +269,7 @@ img.spots__content {
 }
 
 .quiz-container {
-    background: url(/img/quiz-background.jpg);
+    background: url(../img/quiz-background.jpg);
     background-size: cover;
     
     
