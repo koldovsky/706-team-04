@@ -138,7 +138,7 @@
 }
 
 .quote-divider-bottom {
-    padding-bottom: 40px;
+    padding-bottom: 170px;
     color: var(--description-text-light);
     width: 89%;
     margin: auto;
@@ -271,10 +271,6 @@ img.spots__content {
 .quiz-container {
     background: url(../img/quiz-background.jpg);
     background-size: cover;
-    
-    
-    background-color: rgba(0,0,0,0.5);
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -282,7 +278,6 @@ img.spots__content {
     padding-bottom: 150px;
     padding-top: 150px;
     flex-direction: column;
-
 }
 
 .quiz-container p {
