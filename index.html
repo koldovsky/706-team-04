@@ -323,7 +323,7 @@
                     <p class="features__third">- Transfer from the airport</p>
                   </div>
                 </div>
-                <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
+                <a href="#contact"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
               </div>
             </div>
             <!-- End block first point-->
@@ -357,7 +357,7 @@
                     <p class="features__third">- 3-hours walking tour</p>
                   </div>
                 </div>
-                <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
+                <a href="#contact"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
               </div>
             </div>
             <!-- End block second point-->
@@ -396,7 +396,7 @@
                     <p class="features__third">- Cable car ride</p>
                   </div>
                 </div>
-                <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
+                <a href="#contact"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
               </div>
             </div>
             <!-- End block third point-->
@@ -435,7 +435,7 @@
                     <p class="features__third">- Boat trip</p>
                   </div>
                 </div>
-                <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
+                <a href="#contact"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
               </div>
             </div>
             <!-- End block fourth point-->
@@ -472,14 +472,55 @@
                     <p class="features__third">- Northern Lights</p>
                   </div>
                 </div>
-                <a href="#"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
+                <a href="#contact"><button class="city__button"><span>Click!</span><span>Book now →</span></button></a>
               </div>
             </div>
             <!-- End block final point-->
           </div>
       </div>
+      <!-- -->
+      <p class="weather__title">Let's check the weather in Norway</p>
+      <div class="weather__card">
+        <div class="weather__left" id="bgimg">
+          <div class="weather__left-top">
+            <h2 class="weather__city">Weather in Oslo</h2>
+            <div class="weather__date" id="weather__date">
+              Monday, 25 May
+            </div>
+            <div class="weather__time" id="weather__time">
+              12:30 <span id="am-pm">PM</span>
+            </div>
+          </div>
+          <div class="weather__left-bottom">
+              <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon">
+              <h1 class="temp">51°C</h1>
+              <div class="weather__description">Cloudy</div>
+          </div>
+        </div>
+        <div class="weather__right">
+          <div class="weather__right-top">
+            <div class="feels_like">Feels like: 45°C</div>
+            <div class="temp_min">Min temperature: 35°C</div>
+            <div class="temp_max">Max temperature: 48°C</div>
+            <div class="humidity">Humidity: 60%</div>
+            <div class="pressure">Pressure: 1000</div>
+            <div class="wind">Wind speed: 6.2 km/h</div>
+          </div>
+          <div class="weather__right-bottom">
+            <div class="search">
+              <input type="text" class="search-bar" placeholder="Search">
+              <button class="search__button"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em"
+                  width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+                  </path>
+                </svg></button>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="places__countdown">
-        <p>The number of seats is limited, make a <a href="#">reservation!</a></p>
+        <p>The number of seats is limited, make a <a href="#contact">reservation!</a></p>
         <p>Booking closes through:</p>
         <div class="countdown-timer"></div>
       </div>
@@ -645,14 +686,38 @@
             </div>
           </div>
           <div class="container col-md-5">
-            <img class="faq__content-img1" src="img/faq__content-img.jpg"
-              alt="Illustration 'a tourist walks along a picturesque path in Norway'">
+            <div class="faq__container-img">
+
+            </div>
+            <!--<img class="faq__content-img1" src="img/faq__content-img.jpg"
+             alt="Illustration 'a tourist walks along a picturesque path in Norway'">-->
           </div>
         </div>
 
       </div>
 
     </section>
+
+    <div class="contact__form-container">
+      <div class="container__form">  
+      <form id="contact" action="" method="post">
+        <h3>Book your journey!</h3>
+        <h4>Complete the form below, and we will contact you soon to discuss the details!</h4>
+        <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
+      </div>
+    </div>
 
     <!--FAQ Block | Kravchenko Yurii | End -->
 
