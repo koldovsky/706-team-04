@@ -233,15 +233,25 @@
     transform: rotateX(-90deg);
 }
 
+.weather__title {
+    text-align: center;
+    font-size: 40px;
+    color: var(--description-text-dark);
+    line-height: 1.2;
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .03em;
+}
+
 .weather__card {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 25px auto;
     max-height: max-content;
     min-height: 398px;
-   /* background: var(--background-dark-color); */
     border-radius: 26px;
     background-color: #4158D0;
     background-image: linear-gradient(45deg, #4158D0 0%, #C850C0 100%);
@@ -278,12 +288,33 @@
     text-transform: uppercase;
 }
 
+.weather__left-top {
+    background: rgba(35, 36, 40, 0.3);
+    border-radius: 15px;
+    padding: 5px;
+    max-width: max-content;
+}
+
+.weather__left-bottom {
+    max-width: max-content;
+    background: rgba(35, 36, 40, 0.3);
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.weather__left-bottom img {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+
 .weather__right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: auto;
     color: var(--title-light-color);
+    margin: 20px;
 }
 
 .weather__right-top {
@@ -293,11 +324,10 @@
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0;
-    /* background-color: #4158D0;
-    background-image: linear-gradient(45deg, #4158D0 0%, #C850C0 100%); */
-    background: rgb(35, 36, 40, 0.5);
+    background: rgb(35, 36, 40, 0.4);
     border-radius: 25px;
     padding: 15px;
+    margin: 10px auto 20px;
 }
 
 .weather__right-top:hover {
@@ -305,8 +335,14 @@
 }
 
 .weather__right-bottom {
-    margin-top: 15px;
-    background: var(--background-dark-color);
+    background: rgb(35, 36, 40, 0.4);
+    border-radius: 25px;
+    margin: auto;
+    padding: auto 15px;
+}
+
+.search {
+    padding-left: 10px;
 }
 
 .search-bar {
@@ -318,6 +354,7 @@
     color: var(--background-dark-color);
     font-family: inherit;
     font-size: 105%;
+    max-width: 180px;
   }
 
 .search__button {
@@ -429,6 +466,11 @@
     .weather__card {
         display: grid;
         grid-template-columns: 54% 46%;
+        width: 70%;
+    }
+
+    .weather__right-top {
+        margin: 30px auto;
     }
 
     .places__countdown {
