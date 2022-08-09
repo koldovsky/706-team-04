@@ -151,7 +151,7 @@ fieldset {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   .contact__us-form{
     background-size: 240%;
   }
