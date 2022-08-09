@@ -94,6 +94,7 @@
 }
 
 .faq__content-information-hyphen {
+    font-size: 13px;
     font-family: Roboto,sans-serif;
     color: var(--subtitle-dark-color);
 }
@@ -120,8 +121,7 @@
 }
 
 .faq__container-img{
-    background: url(./img/faq__content-img.jpg) 45% 50% no-repeat; /* 50% 50% centers image in div */
-    width: 500px;
+    background: url(..//img/faq__content-img.jpg) 45% 50% no-repeat;
     height: 800px;
     background-size: cover;
 }
