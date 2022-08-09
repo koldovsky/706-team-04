@@ -122,7 +122,6 @@
 
 .faq__container-img{
     background: url(..//img/faq__content-img.jpg) 45% 50% no-repeat;
-    width: 500px;
     height: 800px;
     background-size: cover;
 }
